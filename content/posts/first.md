@@ -16,4 +16,9 @@ tags: ["image"]
 categories: ["Issues"]
 ---
 
-This is a sample. Post with cover image. Need to work on this issue.
+#### Some issues that still need to be worked upon
+
+- This is a sample. Post with cover image. Need to work on this issue.
+
+- The following link doesn't work.
+- [Xlabel](MIT_capstone.md) ![](images/cap-perf-report20230618_2.png)
