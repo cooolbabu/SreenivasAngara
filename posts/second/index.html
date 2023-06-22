@@ -7,7 +7,7 @@
 <meta name="robots" content="index, follow">
 <title>Conversations with ChatGPT - Machine Learning | Sreenivas R Angara</title>
 <meta name="keywords" content="ML">
-<meta name="description" content="This is Post2">
+<meta name="description" content="As a Technical Consultant, I have successfully implemented software solutions using various programming languages, frameworks, and patterns across different platforms throughout my career. The emergence of Google has significantly enhanced my productivity, and I have always admired the knowledgeable community at Stackflow. There, I found individuals who had encountered obstacles before me and others who possessed the solutions. And now, with the advent of Generative AI, a whole new level of innovation has arrived.">
 <meta name="author" content="">
 <link rel="canonical" href="https://cooolbabu.github.io/SreenivasAngara_beta1/posts/second/">
 <link crossorigin="anonymous" href="/SreenivasAngara_beta1/assets/css/stylesheet.bd8886ba4fc2eac54f5c409dfe95a807c61ea781e8774cef7889fb6515f9f983.css" integrity="sha256-vYiGuk/C6sVPXECd/pWoB8Yep4Hod0zveIn7ZRX5&#43;YM=" rel="preload stylesheet" as="style">
@@ -57,7 +57,7 @@
 
     </style>
 </noscript><meta property="og:title" content="Conversations with ChatGPT - Machine Learning" />
-<meta property="og:description" content="This is Post2" />
+<meta property="og:description" content="As a Technical Consultant, I have successfully implemented software solutions using various programming languages, frameworks, and patterns across different platforms throughout my career. The emergence of Google has significantly enhanced my productivity, and I have always admired the knowledgeable community at Stackflow. There, I found individuals who had encountered obstacles before me and others who possessed the solutions. And now, with the advent of Generative AI, a whole new level of innovation has arrived." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://cooolbabu.github.io/SreenivasAngara_beta1/posts/second/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-06-21T18:25:09-05:00" />
@@ -65,7 +65,7 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Conversations with ChatGPT - Machine Learning"/>
-<meta name="twitter:description" content="This is Post2"/>
+<meta name="twitter:description" content="As a Technical Consultant, I have successfully implemented software solutions using various programming languages, frameworks, and patterns across different platforms throughout my career. The emergence of Google has significantly enhanced my productivity, and I have always admired the knowledgeable community at Stackflow. There, I found individuals who had encountered obstacles before me and others who possessed the solutions. And now, with the advent of Generative AI, a whole new level of innovation has arrived."/>
 
 
 <script type="application/ld+json">
@@ -94,12 +94,12 @@
   "@type": "BlogPosting",
   "headline": "Conversations with ChatGPT - Machine Learning",
   "name": "Conversations with ChatGPT - Machine Learning",
-  "description": "This is Post2",
+  "description": "As a Technical Consultant, I have successfully implemented software solutions using various programming languages, frameworks, and patterns across different platforms throughout my career. The emergence of Google has significantly enhanced my productivity, and I have always admired the knowledgeable community at Stackflow. There, I found individuals who had encountered obstacles before me and others who possessed the solutions. And now, with the advent of Generative AI, a whole new level of innovation has arrived.",
   "keywords": [
     "ML"
   ],
-  "articleBody": "This is Post2\n",
-  "wordCount" : "3",
+  "articleBody": "As a Technical Consultant, I have successfully implemented software solutions using various programming languages, frameworks, and patterns across different platforms throughout my career. The emergence of Google has significantly enhanced my productivity, and I have always admired the knowledgeable community at Stackflow. There, I found individuals who had encountered obstacles before me and others who possessed the solutions. And now, with the advent of Generative AI, a whole new level of innovation has arrived.\nGenerative AI is a disruptive technology that evokes both awe and apprehension. It has the potential to revolutionize numerous professions, and as a Machine Learning engineer, I was curious to explore its capabilities. Currently, I am enrolled in an “Applied Data Science and Machine Learning” bootcamp, aiming to discover the impact of Generative AI firsthand. It took me approximately six months to acquire proficiency in Python programming and Machine Learning techniques. To challenge myself further, I sought to explore a topic completely unfamiliar to me, something that hadn’t been covered in the course and hadn’t been searched on Google yet. Through an NPR segment, I came across Sentiment Analysis.\nDuring my exploration of Generative AI, I put it to the test by asking ChatGPT just two questions. Astonishingly, within a mere two minutes, it provided me with an answer. This experience left me truly amazed.\nQuestion 1 You are a data scientist performing Sentiment analysis. I have a customer satisfaction problem. I want to know, why customers are dissatisfied with my products in the Computers category. You need to read comments and tell me if .. 1) Product is high priced 2) Issue with product quality 3) unhappy with delivery. What deep learning algorithm should I use to solve this problem\nFor the customer satisfaction problem in the Computers category, where you want to identify the reasons for customer dissatisfaction based on comments, sentiment analysis can be an effective approach. Specifically, you can use a deep learning algorithm called a Recurrent Neural Network (RNN) with Long Short-Term Memory (LSTM) cells.\nLSTM-based RNNs are well-suited for analyzing sequential data, such as sentences or comments, because they can capture the dependencies and long-term relationships between words. This makes them effective for sentiment analysis tasks where the order of words and their context is important.\nQuestion 2 Let’s use Recurrent Neural Network (RNN) with Long Short-Term Memory (LSTM) cells. The data is in a file that’s in Parquet format. It has customer_id, product_id and comments. Give me python machine learning code that implement this alogorithm: 1) That finds the best parameters to use and then use the best parameters to build a model that I can use in my production environment\nCertainly! To implement the RNN with LSTM cells for sentiment analysis using customer comments, and to find the best parameters for your model, you can follow the code example provided below. This example assumes you have the necessary libraries such as pandas, scikit-learn, TensorFlow, and Keras installed.\nimport pandas as pd import numpy as np from sklearn.model_selection import train_test_split from sklearn.metrics import accuracy_score from sklearn.model_selection import GridSearchCV from tensorflow.keras.preprocessing.text import Tokenizer from tensorflow.keras.preprocessing.sequence import pad_sequences from tensorflow.keras.models import Sequential from tensorflow.keras.layers import Embedding, LSTM, Dense # Load the data from the Parquet file df = pd.read_parquet(\"data.parquet\") # Split the data into input features (comments) and target variable (reason for dissatisfaction) X = df[\"comments\"].values y = df[\"dissatisfaction_reason\"].values # Split the data into training and testing sets X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42) # Tokenize the input text and convert it to sequences tokenizer = Tokenizer() tokenizer.fit_on_texts(X_train) X_train_seq = tokenizer.texts_to_sequences(X_train) X_test_seq = tokenizer.texts_to_sequences(X_test) # Pad the sequences to ensure they have the same length max_sequence_length = max([len(seq) for seq in X_train_seq]) X_train_padded = pad_sequences(X_train_seq, maxlen=max_sequence_length) X_test_padded = pad_sequences(X_test_seq, maxlen=max_sequence_length) # Define the LSTM model model = Sequential() model.add(Embedding(input_dim=len(tokenizer.word_index) + 1, output_dim=100, input_length=max_sequence_length)) model.add(LSTM(units=128, dropout=0.2, recurrent_dropout=0.2)) model.add(Dense(units=3, activation='softmax')) # Compile the model model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy']) # Define the parameter grid for grid search param_grid = { 'units': [64, 128, 256], 'dropout': [0.2, 0.3, 0.4], 'recurrent_dropout': [0.2, 0.3, 0.4] } # Perform grid search to find the best parameters grid_search = GridSearchCV(estimator=model, param_grid=param_grid, cv=3) grid_search.fit(X_train_padded, y_train) # Get the best parameters best_params = grid_search.best_params_ print(\"Best Parameters:\", best_params) # Build the final model using the best parameters final_model = Sequential() final_model.add(Embedding(input_dim=len(tokenizer.word_index) + 1, output_dim=100, input_length=max_sequence_length)) final_model.add(LSTM(units=best_params['units'], dropout=best_params['dropout'], recurrent_dropout=best_params['recurrent_dropout'])) final_model.add(Dense(units=3, activation='softmax')) final_model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy']) # Train the final model using the best parameters final_model.fit(X_train_padded, y_train, epochs=10, batch_size=32) # Evaluate the final model on the test set y_pred = final_model.predict_classes(X_test_padded) accuracy = accuracy_score(y_test, y_pred) print(\"Accuracy:\", accuracy) # Save the final model for use in the product environment final_model.save(\"sentiment_analysis_model.h5\") Final Thoughts Truly amazing! Prior to ChatGPT, we used to rely on code snippets that we copied and customized for our specific implementation. However, now we have the ability to obtain pre-customized programs that are ready to run. The next step is to construct a pipeline and execute the code.\nTaking it a step further, software developers can piece together individual components like puzzles and create a comprehensive final solution.\n",
+  "wordCount" : "836",
   "inLanguage": "en",
   "datePublished": "2023-06-21T18:25:09-05:00",
   "dateModified": "2023-06-21T18:25:09-05:00",
@@ -195,12 +195,118 @@
     <h1 class="post-title">
       Conversations with ChatGPT - Machine Learning
     </h1>
-    <div class="post-meta"><span title='2023-06-21 18:25:09 -0500 -0500'>June 21, 2023</span>&nbsp;·&nbsp;1 min
+    <div class="post-meta"><span title='2023-06-21 18:25:09 -0500 -0500'>June 21, 2023</span>&nbsp;·&nbsp;4 min
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
 
-  <div class="post-content"><p>This is Post2</p>
+        <div class="inner"><ul>
+                <li>
+                    <a href="#question-1" aria-label="Question 1">Question 1</a></li>
+                <li>
+                    <a href="#question-2" aria-label="Question 2">Question 2</a></li>
+                <li>
+                    <a href="#final-thoughts" aria-label="Final Thoughts">Final Thoughts</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>As a Technical Consultant, I have successfully implemented software solutions using various programming languages, frameworks, and patterns across different platforms throughout my career. The emergence of Google has significantly enhanced my productivity, and I have always admired the knowledgeable community at Stackflow. There, I found individuals who had encountered obstacles before me and others who possessed the solutions. And now, with the advent of Generative AI, a whole new level of innovation has arrived.</p>
+<p>Generative AI is a disruptive technology that evokes both awe and apprehension. It has the potential to revolutionize numerous professions, and as a Machine Learning engineer, I was curious to explore its capabilities. Currently, I am enrolled in an &ldquo;Applied Data Science and Machine Learning&rdquo; bootcamp, aiming to discover the impact of Generative AI firsthand. It took me approximately six months to acquire proficiency in Python programming and Machine Learning techniques. To challenge myself further, I sought to explore a topic completely unfamiliar to me, something that hadn&rsquo;t been covered in the course and hadn&rsquo;t been searched on Google yet. Through an NPR segment, I came across Sentiment Analysis.</p>
+<p>During my exploration of Generative AI, I put it to the test by asking ChatGPT just two questions. Astonishingly, within a mere two minutes, it provided me with an answer. This experience left me truly amazed.</p>
+<h3 id="question-1">Question 1<a hidden class="anchor" aria-hidden="true" href="#question-1">#</a></h3>
+<p>You are a data scientist performing Sentiment analysis. I have a customer satisfaction problem. I want to know, why customers are dissatisfied with my products in the Computers category. You need to read comments and tell me if .. 1) Product is high priced 2) Issue with product quality 3) unhappy with delivery. What deep learning algorithm should I use to solve this problem</p>
+<blockquote>
+<p>For the customer satisfaction problem in the Computers category, where you want to identify the reasons for customer dissatisfaction based on comments, sentiment analysis can be an effective approach. Specifically, you can use a deep learning algorithm called a Recurrent Neural Network (RNN) with Long Short-Term Memory (LSTM) cells.</p>
+<p>LSTM-based RNNs are well-suited for analyzing sequential data, such as sentences or comments, because they can capture the dependencies and long-term relationships between words. This makes them effective for sentiment analysis tasks where the order of words and their context is important.</p>
+</blockquote>
+<h3 id="question-2">Question 2<a hidden class="anchor" aria-hidden="true" href="#question-2">#</a></h3>
+<p>Let&rsquo;s use Recurrent Neural Network (RNN) with Long Short-Term Memory (LSTM) cells. The data is in a file that&rsquo;s in Parquet format. It has customer_id, product_id and comments. Give me python machine learning code that implement this alogorithm: 1) That finds the best parameters to use and then use the best parameters to build a model that I can use in my production environment</p>
+<blockquote>
+<p>Certainly! To implement the RNN with LSTM cells for sentiment analysis using customer comments, and to find the best parameters for your model, you can follow the code example provided below. This example assumes you have the necessary libraries such as pandas, scikit-learn, TensorFlow, and Keras installed.</p>
+</blockquote>
+<pre><code>import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import GridSearchCV
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Embedding, LSTM, Dense
+
+# Load the data from the Parquet file
+df = pd.read_parquet(&quot;data.parquet&quot;)
+
+# Split the data into input features (comments) and target variable (reason for dissatisfaction)
+X = df[&quot;comments&quot;].values
+y = df[&quot;dissatisfaction_reason&quot;].values
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Tokenize the input text and convert it to sequences
+tokenizer = Tokenizer()
+tokenizer.fit_on_texts(X_train)
+X_train_seq = tokenizer.texts_to_sequences(X_train)
+X_test_seq = tokenizer.texts_to_sequences(X_test)
+
+# Pad the sequences to ensure they have the same length
+max_sequence_length = max([len(seq) for seq in X_train_seq])
+X_train_padded = pad_sequences(X_train_seq, maxlen=max_sequence_length)
+X_test_padded = pad_sequences(X_test_seq, maxlen=max_sequence_length)
+
+# Define the LSTM model
+model = Sequential()
+model.add(Embedding(input_dim=len(tokenizer.word_index) + 1, output_dim=100, input_length=max_sequence_length))
+model.add(LSTM(units=128, dropout=0.2, recurrent_dropout=0.2))
+model.add(Dense(units=3, activation='softmax'))
+
+# Compile the model
+model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+# Define the parameter grid for grid search
+param_grid = {
+    'units': [64, 128, 256],
+    'dropout': [0.2, 0.3, 0.4],
+    'recurrent_dropout': [0.2, 0.3, 0.4]
+}
+
+# Perform grid search to find the best parameters
+grid_search = GridSearchCV(estimator=model, param_grid=param_grid, cv=3)
+grid_search.fit(X_train_padded, y_train)
+
+# Get the best parameters
+best_params = grid_search.best_params_
+print(&quot;Best Parameters:&quot;, best_params)
+
+# Build the final model using the best parameters
+final_model = Sequential()
+final_model.add(Embedding(input_dim=len(tokenizer.word_index) + 1, output_dim=100, input_length=max_sequence_length))
+final_model.add(LSTM(units=best_params['units'], dropout=best_params['dropout'], recurrent_dropout=best_params['recurrent_dropout']))
+final_model.add(Dense(units=3, activation='softmax'))
+final_model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+# Train the final model using the best parameters
+final_model.fit(X_train_padded, y_train, epochs=10, batch_size=32)
+
+# Evaluate the final model on the test set
+y_pred = final_model.predict_classes(X_test_padded)
+accuracy = accuracy_score(y_test, y_pred)
+print(&quot;Accuracy:&quot;, accuracy)
+
+# Save the final model for use in the product environment
+final_model.save(&quot;sentiment_analysis_model.h5&quot;)
+</code></pre>
+<h3 id="final-thoughts">Final Thoughts<a hidden class="anchor" aria-hidden="true" href="#final-thoughts">#</a></h3>
+<p>Truly amazing! Prior to ChatGPT, we used to rely on code snippets that we copied and customized for our specific implementation. However, now we have the ability to obtain pre-customized programs that are ready to run. The next step is to construct a pipeline and execute the code.</p>
+<p>Taking it a step further, software developers can piece together individual components like puzzles and create a comprehensive final solution.</p>
 
 
   </div>
