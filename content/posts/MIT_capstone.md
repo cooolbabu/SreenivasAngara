@@ -43,3 +43,7 @@ Here both Stacking Classification and HistGradientBoosting Classifier have simil
 we can see that HistGradientBoosting is better at predicting actual defaults. And that's the winner
 
 !["Confusion Matrix"](Capstone-ConfusionMatrix.png)
+
+##### 🔗 [Jupyter Notebook](https://github.com/cooolbabu/GL-MIT-ADSP-2023/blob/master/capstone/CapstoneProjectLoanDefault_LowCode_SreenivasAngaraM3.ipynb)
+
+##### 🔗 [HTML version ](https://cooolbabu.github.io/ConversationsWithChatGPT/CapstoneProjectLoanDefault_LowCode_SreenivasAngaraFinal3.html)
