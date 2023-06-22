@@ -58,8 +58,8 @@ params:
     enabled: true
     title: "Sreenivas Angara"
     subtitle:
-      "Technologist engaged in delivering transformative Business solutions.\
-      New passion - Delivering AI solutions to improve all aspects of back office operations"
+      "Technologist engaged in delivering transformative Business solutions. New focus- \ 
+      deliver AI solutions to improve all aspects of back/front office operations"
     imageUrl: "images/SreenivasAngara.jpg"
     imageWidth: 220
     imageHeight: 240
