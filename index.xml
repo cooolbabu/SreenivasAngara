@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sreenivas R Angara</title>
-    <link>https://cooolbabu.com/</link>
+    <link>https://cooolbabu.github.io/SreenivasAngara_beta1/</link>
     <description>Recent content on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Jun 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jun 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Third</title>
-      <link>https://cooolbabu.com/posts/third/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/third/</link>
       <pubDate>Wed, 21 Jun 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.com/posts/third/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/third/</guid>
       <description>This is Post3</description>
     </item>
     
     <item>
       <title>Second</title>
-      <link>https://cooolbabu.com/posts/second/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/second/</link>
       <pubDate>Wed, 21 Jun 2023 18:25:09 -0500</pubDate>
       
-      <guid>https://cooolbabu.com/posts/second/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/second/</guid>
       <description>This is Post2</description>
     </item>
     
     <item>
       <title>First</title>
-      <link>https://cooolbabu.com/posts/first/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/first/</link>
       <pubDate>Wed, 21 Jun 2023 18:25:02 -0500</pubDate>
       
-      <guid>https://cooolbabu.com/posts/first/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/first/</guid>
       <description>Showing the image brain</description>
     </item>
     
