@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Jun 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Third</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/third/</link>
-      <pubDate>Wed, 21 Jun 2023 18:25:18 -0500</pubDate>
+      <title>Conversations with ChatGPT - Machine Learning</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/first/</link>
+      <pubDate>Wed, 21 Jun 2023 18:25:02 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/third/</guid>
-      <description>This is Post3</description>
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/first/</guid>
+      <description>Showing the image brain</description>
     </item>
     
     <item>
@@ -26,12 +26,12 @@
     </item>
     
     <item>
-      <title>Conversations with ChatGPT - Machine Learning</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/first/</link>
-      <pubDate>Wed, 21 Jun 2023 18:25:02 -0500</pubDate>
+      <title>Third</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/third/</link>
+      <pubDate>Wed, 21 Jun 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/first/</guid>
-      <description>Showing the image brain</description>
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/third/</guid>
+      <description>This is Post3</description>
     </item>
     
   </channel>
