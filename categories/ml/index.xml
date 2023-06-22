@@ -8,12 +8,14 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Jun 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/categories/ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Third</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/third/</link>
+      <title>MIT-GreatLearning Applied Data Science program Capstone Project</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/mit_capstone/</link>
       <pubDate>Wed, 21 Jun 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/third/</guid>
-      <description>This is Post3</description>
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/mit_capstone/</guid>
+      <description>During my participation in the MIT-GreatLearning Applied Data Science Program, I experienced an intensive curriculum that encompassed diverse subjects such as Statistics, Python programming, Machine Learning, Neural Networks, and Recommendation Systems.
+The culmination of the program was the Capstone project, which aimed to predict Loan Default. This involved crucial steps like Data Preparation, Exploratory Data Analysis, constructing models, and generating a comprehensive performance report for the various models employed.
+The final outcome is a binary classification.</description>
     </item>
     
   </channel>
