@@ -27,5 +27,5 @@ This visualiztion says it all
 
 ![](../../images/linkedin-algorithm-2022-edition.jpg)
 
-[Katrin Weitek](https://www.linkedin.com/in/katrin-wietek/)
+_Source :_ [Katrin Weitek](https://www.linkedin.com/in/katrin-wietek/)
 [Richard van der Blom](https://www.linkedin.com/in/richardvanderblom/)
