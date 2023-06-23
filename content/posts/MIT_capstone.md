@@ -24,7 +24,7 @@ The final outcome is a binary classification.
 
 An essential aspect of being a successful Data Scientist lies in effectively presenting findings. Seaborn, a remarkable visualization tool, played a pivotal role in crafting captivating presentations.
 
-The following three charts encapsulate the efforts made during the Capstone project.
+**The following three charts encapsulate the efforts made during the Capstone project.**
 
 ### Presentation.1 - Performance of various ML models for Loan default classification
 
