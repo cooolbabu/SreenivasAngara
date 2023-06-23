@@ -1,7 +1,7 @@
 ---
 title: "Azure Landscape"
 date: 2023-05-21T18:25:18-05:00
-draft: false
+draft: true
 
 weight: 500
 
