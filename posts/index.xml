@@ -35,7 +35,10 @@ The final outcome is a binary classification.</description>
       <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/first/</guid>
       <description>Some issues that still need to be worked upon This is a sample. Post with cover image. Need to work on this issue.
 The following link doesn&amp;rsquo;t work.
-Xlabel </description>
+Xlabel
+Report TitlePerformance xx Report
+Using Raw html Write this text right-to-left
+Using rtl shortcode Hello .. this is left to right message </description>
     </item>
     
   </channel>
