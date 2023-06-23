@@ -6,11 +6,11 @@
     <description>Recent content on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Jun 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jun 2023 18:25:09 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conversations with ChatGPT - Machine Learning</title>
       <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/second/</link>
-      <pubDate>Wed, 21 Jun 2023 18:25:09 -0500</pubDate>
+      <pubDate>Fri, 26 May 2023 18:25:09 -0500</pubDate>
       
       <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/second/</guid>
       <description>As a Technical Consultant, I have successfully implemented software solutions using various programming languages, frameworks, and patterns across different platforms throughout my career. The emergence of Google has significantly enhanced my productivity, and I have always admired the knowledgeable community at Stackflow. There, I found individuals who had encountered obstacles before me and others who possessed the solutions. And now, with the advent of Generative AI, a whole new level of innovation has arrived.</description>
@@ -19,7 +19,7 @@
     <item>
       <title>MIT-GreatLearning Applied Data Science program Capstone Project</title>
       <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/mit_capstone/</link>
-      <pubDate>Wed, 21 Jun 2023 18:25:18 -0500</pubDate>
+      <pubDate>Sat, 17 Jun 2023 18:25:18 -0500</pubDate>
       
       <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/mit_capstone/</guid>
       <description>During my participation in the MIT-GreatLearning Applied Data Science Program, I experienced an intensive curriculum that encompassed diverse subjects such as Statistics, Python programming, Machine Learning, Neural Networks, and Recommendation Systems.
@@ -28,12 +28,37 @@ The final outcome is a binary classification.</description>
     </item>
     
     <item>
-      <title>Image cover on a post</title>
+      <title>Prepare yourself for LinkedIn</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/linkedin-visualization/</link>
+      <pubDate>Thu, 22 Jun 2023 18:25:09 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/linkedin-visualization/</guid>
+      <description>Every professional should dedicate a reasonable amount of time each week to LinkedIn. This commitment serves as an investment in job security, and there are two main reasons for doing so.
+Personal Branding Your company HR is always looking for &amp;lsquo;Great Candidates&amp;rsquo; to fill a certain post. Why not let them find you on LinkedIn
+Professional Networking If you are furloughed, find your next opportunity quickly
+Finally,
+In the future, your LinkedIn score may determine whether you get to keep the job or not This visualiztion says it all</description>
+    </item>
+    
+    <item>
+      <title>Azure Landscape</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/azurelandscape/</link>
+      <pubDate>Sun, 21 May 2023 18:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/azurelandscape/</guid>
+      <description>This powerpoint presentation of various tiers in Microsoft Azure Cloud implementation.
+With the architecture in-place, I want to answer the question
+&amp;ldquo;How can you leverage Generative AI to build and maintain this infrastructure?&amp;rdquo; This is an embedded Microsoft Office presentation, powered by Office. Full PowerPoint presentation</description>
+    </item>
+    
+    <item>
+      <title>Scratchpad</title>
       <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/first/</link>
-      <pubDate>Wed, 21 Jun 2023 18:25:02 -0500</pubDate>
+      <pubDate>Fri, 21 Apr 2023 18:25:02 -0500</pubDate>
       
       <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/first/</guid>
-      <description>Powerpoint Presentation PowerPoint
+      <description>This is a scratch post to view various features of PaperMod theme
+Powerpoint Presentation PowerPoint
 Some issues that still need to be worked upon This is a sample. Post with cover image. Need to work on this issue.
 The following link doesn&amp;rsquo;t work.
 Xlabel
