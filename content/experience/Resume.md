@@ -8,8 +8,6 @@ weight: 1000
 
 cover:
   image: "images/brain-circuit360.jpg"
-  Alt: This is an brain image
-  caption: "This is an image for circuit brain"
   imageWidth: 200
   imageHeight: 200
 
@@ -17,7 +15,12 @@ tags: ["resume"]
 categories: ["resume"]
 ---
 
-[Sreenivas Angara Resume](https://1drv.ms/b/s!AvWe2XCN4ByLmSKzYqx5M9UbtfRA?e=fdSbOh)
+** [Sreenivas Angara Resume](https://1drv.ms/b/s!AvWe2XCN4ByLmSKzYqx5M9UbtfRA?e=fdSbOh)**
+
+<hr>
+<br>
+
+#### &dArr;&dArr; PDF version may take a few seconds to download. It will displayed here after download &dArr;&dArr;
 
 {{<rawhtml>}}
 
