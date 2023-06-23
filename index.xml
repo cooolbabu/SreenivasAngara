@@ -67,6 +67,15 @@ Using Raw html Write this text right-to-left
 Using rtl shortcode Hello .. this is left to right message </description>
     </item>
     
+    <item>
+      <title>Sreenivas Angara Resume</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/experience/resume/</link>
+      <pubDate>Fri, 21 Apr 2023 18:25:02 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/experience/resume/</guid>
+      <description>Sreenivas Angara Resume</description>
+    </item>
+    
     
   </channel>
 </rss>
