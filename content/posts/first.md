@@ -1,6 +1,6 @@
 ---
-title: "Image cover on a post"
-date: 2023-06-21T18:25:02-05:00
+title: "Scratchpad"
+date: 2023-04-21T18:25:02-05:00
 draft: false
 layout: rtl
 
@@ -16,6 +16,8 @@ cover:
 tags: ["image"]
 categories: ["Issues"]
 ---
+
+This is a scratch post to view various features of PaperMod theme
 
 ### Powerpoint Presentation
 
