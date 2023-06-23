@@ -1,16 +1,16 @@
 ---
-title: "MIT-GreatLearning Applied Data Science program Capstone Project"
-date: 2023-06-21T18:25:18-05:00
+title: "Azure Landscape"
+date: 2023-05-21T18:25:18-05:00
 draft: false
 
-weight: 100
+weight: 500
 
 cover:
-  image: "images/mit-logo-1024x293.png"
-  Alt: MIT logo
+  image: "images/AzureLogo.png"
+  Alt: Azure
 
-tags: ["python", "jupyter"]
-categories: ["ML", "Classification"]
+tags: ["architecture", "cloud"]
+categories: ["Azure"]
 ---
 
 During my participation in the MIT-GreatLearning Applied Data Science Program, I experienced an intensive curriculum that encompassed diverse subjects such as Statistics, Python programming, Machine Learning, Neural Networks, and Recommendation Systems.

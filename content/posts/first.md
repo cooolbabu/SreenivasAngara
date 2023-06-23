@@ -17,13 +17,17 @@ tags: ["image"]
 categories: ["Issues"]
 ---
 
+### Powerpoint Presentation
+
+[PowerPoint](https://1drv.ms/p/s!AvWe2XCN4ByLmRrrhaL04zCfkq8p?e=2xQeEw)
+
 #### Some issues that still need to be worked upon
 
 - This is a sample. Post with cover image. Need to work on this issue.
 
 - The following link doesn't work.
 - [Xlabel](MIT_capstone.md)
-- ![Performance Report](cap-model-performance.png)
+- ![Performance Report](../../cap-model-performance.png)
 
 {{< figure src="cap-model-performance.png" alt="Performance Report" title="Report Title" caption="Performance xx Report">}}
 
