@@ -8,6 +8,8 @@ weight: 100
 cover:
   image: "images/mit-logo-1024x293.png"
   Alt: MIT logo
+  imageWidth: 200
+  imageHeight: 200
 
 tags: ["python", "jupyter"]
 categories: ["ML", "Classification"]

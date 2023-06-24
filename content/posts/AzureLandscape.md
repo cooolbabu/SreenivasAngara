@@ -8,6 +8,8 @@ weight: 500
 cover:
   image: "images/AzureLogo.png"
   Alt: Azure
+  imageWidth: 300
+  imageHeight: 300
 
 tags: ["architecture", "cloud"]
 categories: ["Azure"]

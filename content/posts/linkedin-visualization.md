@@ -7,7 +7,9 @@ weight: 500
 
 cover:
   image: "images/linkedin-image-size-11.jpg"
-  Alt: Azure
+  Alt: LinkedIn
+  imageWidth: 300
+  imageHeight: 300
 
 tags: ["job search"]
 categories: ["LinkedIn", "AI"]
