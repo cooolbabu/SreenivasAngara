@@ -15,7 +15,7 @@ tags: ["resume"]
 categories: ["resume"]
 ---
 
-** [Sreenivas Angara Resume](https://1drv.ms/b/s!AvWe2XCN4ByLmSKzYqx5M9UbtfRA?e=fdSbOh)**
+** [Sreenivas Angara Resume](https://1drv.ms/b/s!AvWe2XCN4ByLmSEa4MuMBylqXjbi?e=dgzMU7)**
 
 {{< figure src="../../images/Certs.png" alt="Certifications" width="20%">}}
 
