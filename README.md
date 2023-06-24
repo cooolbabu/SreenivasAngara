@@ -10,3 +10,5 @@
 2. [My Minimal Portfolio Website built using HUGO for FREE - Tasheer](https://youtu.be/EZI9kydYhfA)
 
 3. [Jesse Wei Blog](https://jessewei.dev/blog/)
+
+4. [PaperMode Theme documentation](https://github.com/adityatelange/hugo-PaperMod/wiki/)
