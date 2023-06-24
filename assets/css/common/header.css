@@ -96,5 +96,9 @@ body:not(.dark) #sun {
     position: fixed;
     z-index: 9999;
     width: 100%;
-    background-color: var(--theme);
+    background: linear-gradient(to bottom, #33ccff 90%, blue 100%);
+    opacity: 0.95;
+
+    /* background-color: #66ccff; */
+    /* background-color: var(--theme); */
 }
