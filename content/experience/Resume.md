@@ -17,6 +17,8 @@ categories: ["resume"]
 
 ** [Sreenivas Angara Resume](https://1drv.ms/b/s!AvWe2XCN4ByLmSKzYqx5M9UbtfRA?e=fdSbOh)**
 
+{{< figure src="../../images/Certs.png" alt="Certifications" width="20%">}}
+
 <hr>
 <br>
 
