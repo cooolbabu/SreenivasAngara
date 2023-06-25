@@ -4,7 +4,7 @@
 ### Blog site 
 [Sreenivas Angara Blog site](https://cooolbabu.github.io/SreenivasAngara_beta1/)
 
-### I am greateful to all the folks who went to great lengths to share their knowledge. Thank you
+### I am greateful to all the folks who share their knowledge. Thank you
 
 1. [Getting Started With Hugo | FREE COURSE by Adi Purdial](https://youtu.be/hjD9jTi_DQ4)
 
