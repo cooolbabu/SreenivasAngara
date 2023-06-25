@@ -1,7 +1,7 @@
 # SreenivasAngara_beta1 
 - Yes, this site is in beta mode. It takes effort to master Hugo and PaperMod Theme
 
-### This is repository for my Blog site 
+### Blog site 
 [Sreenivas Angara Blog site](https://cooolbabu.github.io/SreenivasAngara_beta1/)
 
 ### I am greateful to all the folks who went to great lengths to share their knowledge. Thank you
