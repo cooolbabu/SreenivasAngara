@@ -41,6 +41,17 @@ In the future, your LinkedIn score may determine whether you get to keep the job
     </item>
     
     <item>
+      <title>Machine Learning - Key terms</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/ml_key_terms/</link>
+      <pubDate>Sat, 17 Jun 2023 18:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/ml_key_terms/</guid>
+      <description>During an interview process, interviewers generally ask and expect textbook definitions of basic terms. Interviewees, on the other hand must be prepared and answer them promptly. Lengthy and exploratory answers prevent interviewers from asking more probing questions.
+I noticed this issue on a recent interview and not repeat this mistake.
+Confidence Interval A confidence interval is a range of values around the point estimate, constructed so that this range will contain the population parameter with a certain degree of confidence, expressed in percentage terms.</description>
+    </item>
+    
+    <item>
       <title>Azure Landscape</title>
       <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/azurelandscape/</link>
       <pubDate>Sun, 21 May 2023 18:25:18 -0500</pubDate>
@@ -49,6 +60,29 @@ In the future, your LinkedIn score may determine whether you get to keep the job
       <description>This powerpoint presentation of various tiers in Microsoft Azure Cloud implementation.
 With the architecture in-place, I want to answer the question
 &amp;ldquo;How can you leverage Generative AI to build and maintain this infrastructure?&amp;rdquo; This is an embedded Microsoft Office presentation, powered by Office. Full PowerPoint presentation</description>
+    </item>
+    
+    <item>
+      <title>WIP - API Management Concepts</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/api_management/</link>
+      <pubDate>Sun, 21 May 2023 18:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/api_management/</guid>
+      <description>WIP - Putting my thoughts together a future article on Azure API Management. Policies Authentication Policies Access Restriction Policy Caching Policy Cross Domain Policies Transformation Policies Advanced Policies
+Microservice Microservices are fine grained loosely coupled services communicating through light-weight protocols. Azure functions versus Docker. Portability versus serverless
+API Management API Mangagement is a process of creating and publishing web application programming interfaces. Enforce usage policies, control access and analyse usage statistics</description>
+    </item>
+    
+    <item>
+      <title>WIP - Application Platforms</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/appcontainers/</link>
+      <pubDate>Sun, 21 May 2023 18:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/appcontainers/</guid>
+      <description>WIP - A future article on Enterprise Application Platforms Platforms: JBoss, Microsoft Entity Framework Core, SpringBoot
+Applications: Web apps, REST services, SOA, JMS messaging
+Layers: Presentation layer, Buiness Layer, Database Layer (use mermaid.js for text to Illustration)
+Key concepts: Dependency Injection: Promotes loose coupling .. examples ??? Aspect Orient Programming: Apply application wide services to an application in a declarative fashion Logging, Transactions, Security POJO - Plain Old java object</description>
     </item>
     
     <item>
