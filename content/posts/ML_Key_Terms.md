@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning - Key terms"
+title: ""
 date: 2023-06-17T18:25:18-05:00
 draft: false
 
@@ -17,7 +17,7 @@ categories: ["ML", "ML_Terms"]
 
 During an interview process, interviewers generally ask and expect textbook definitions of basic terms. Interviewees, on the other hand must be prepared and answer them promptly. Lengthy and exploratory answers prevent interviewers from asking more probing questions.
 
-I noticed this issue on a recent interview and not repeat this mistake.
+I noticed this issue on a recent interview. Here are some of them
 
 #### Confidence Interval
 
@@ -42,6 +42,17 @@ If we increase the bias of an overfit model, we are making the model simpler and
 **Q_Q plot:** The plot obtained is known as a quantile-quantile plot, or Q_Q plot, when the quantiles of two variables are placed against one another. With respect to the locations, this plot summarises whether or not the distributions of two variables are similar.
 
 **Pearsonr:** A linear relationship between two variables' strength and direction is measured by the Pearson correlation coefficient. Values usually fall between -1 and 1, with 1 denoting a perfectly positive correlation and -1 denoting a perfectly inverse relationship.
+
+**Multicolinearity** - occurs when there is a dependency between independent variables
+
+- VIF Variance inflation Factor. Review Celestial Object detection for details.
+  - 1 very less Multicollinerity
+  - < 5 Moderat
+  - VIF > 5 Extreme Multicollinearity
+- Solutions
+  - Principle Component Analysis
+  - Drop some predictors
+  - Do some linear transformation e.g., add/subtract 2 predictors to create a new bespoke predictor
 
 #### Linear Regression Model performance
 
