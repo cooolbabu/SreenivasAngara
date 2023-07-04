@@ -47,7 +47,7 @@ These regression models offer different trade-offs in terms of interpretability,
 
 ![Non-Linear Regression PR](Non-LinearRegressPR.png)
 
-The highlighted model is a tuned Random Forest Regressor using GridSearch. We can see that both R-Squre and Adjusted R-Square are higher and error scores are lower than models that are not tuned. Tuning the hyperparameters of a machine learning model can help improve its performance.
+The highlighted model is a tuned Random Forest Regressor using GridSearch. We can see that both R-Square and Adjusted R-Square are higher and error scores are lower than models that are not tuned. Machine learning models performance can be improved with Hyperparameters and are essential for optimizing a model
 
 ### Feature Importance
 
