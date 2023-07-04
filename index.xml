@@ -6,14 +6,15 @@
     <description>Recent content on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jun 2023 18:25:09 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jul 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Conversations with ChatGPT - Machine Learning</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/second/</link>
-      <pubDate>Fri, 26 May 2023 18:25:09 -0500</pubDate>
+      <title>Non-Linear Regression models</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/non-linearregression/</link>
+      <pubDate>Sun, 02 Jul 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/second/</guid>
-      <description>As a Technical Consultant, I have successfully implemented software solutions using various programming languages, frameworks, and patterns across different platforms throughout my career. The emergence of Google has significantly enhanced my productivity, and I have always admired the knowledgeable community at Stackflow. There, I found individuals who had encountered obstacles before me and others who possessed the solutions. And now, with the advent of Generative AI, a whole new level of innovation has arrived.</description>
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/non-linearregression/</guid>
+      <description>Non-linear regression is a powerful technique used in statistics and machine learning to model and analyze complex relationships between variables. Unlike linear regression, which assumes a linear relationship between the independent and dependent variables, non-linear regression algorithms can capture more intricate and non-linear patterns. This makes them particularly useful when dealing with real-world phenomena where linear relationships are insufficient.
+Following Non-Linear regression models are covered in the attached Jypter notebook</description>
     </item>
     
     <item>
@@ -25,6 +26,15 @@
       <description>During my participation in the MIT-GreatLearning Applied Data Science Program, I experienced an intensive curriculum that encompassed diverse subjects such as Statistics, Python programming, Machine Learning, Neural Networks, and Recommendation Systems.
 The culmination of the program was the Capstone project, which aimed to predict Loan Default. This involved crucial steps like Data Preparation, Exploratory Data Analysis, constructing models, and generating a comprehensive performance report for the various models employed.
 The final outcome is a binary classification.</description>
+    </item>
+    
+    <item>
+      <title>Conversations with ChatGPT - Machine Learning</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/second/</link>
+      <pubDate>Fri, 26 May 2023 18:25:09 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/second/</guid>
+      <description>As a Technical Consultant, I have successfully implemented software solutions using various programming languages, frameworks, and patterns across different platforms throughout my career. The emergence of Google has significantly enhanced my productivity, and I have always admired the knowledgeable community at Stackflow. There, I found individuals who had encountered obstacles before me and others who possessed the solutions. And now, with the advent of Generative AI, a whole new level of innovation has arrived.</description>
     </item>
     
     <item>
@@ -41,13 +51,12 @@ In the future, your LinkedIn score may determine whether you get to keep the job
     </item>
     
     <item>
-      <title></title>
+      <title>Machnine Language Terms - Cheat sheet</title>
       <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/ml_key_terms/</link>
       <pubDate>Sat, 17 Jun 2023 18:25:18 -0500</pubDate>
       
       <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/ml_key_terms/</guid>
       <description>During an interview process, interviewers generally ask and expect textbook definitions of basic terms. Interviewees, on the other hand must be prepared and answer them promptly. Lengthy and exploratory answers prevent interviewers from asking more probing questions.
-I noticed this issue on a recent interview. Here are some of them
 Confidence Interval A confidence interval is a range of values around the point estimate, constructed so that this range will contain the population parameter with a certain degree of confidence, expressed in percentage terms.</description>
     </item>
     

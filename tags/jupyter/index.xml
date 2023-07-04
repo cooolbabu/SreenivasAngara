@@ -6,7 +6,17 @@
     <description>Recent content in jupyter on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Jun 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jul 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Non-Linear Regression models</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/non-linearregression/</link>
+      <pubDate>Sun, 02 Jul 2023 18:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/non-linearregression/</guid>
+      <description>Non-linear regression is a powerful technique used in statistics and machine learning to model and analyze complex relationships between variables. Unlike linear regression, which assumes a linear relationship between the independent and dependent variables, non-linear regression algorithms can capture more intricate and non-linear patterns. This makes them particularly useful when dealing with real-world phenomena where linear relationships are insufficient.
+Following Non-Linear regression models are covered in the attached Jypter notebook</description>
+    </item>
+    
     <item>
       <title>MIT-GreatLearning Applied Data Science program Capstone Project</title>
       <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/mit_capstone/</link>
@@ -19,13 +29,12 @@ The final outcome is a binary classification.</description>
     </item>
     
     <item>
-      <title></title>
+      <title>Machnine Language Terms - Cheat sheet</title>
       <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/ml_key_terms/</link>
       <pubDate>Sat, 17 Jun 2023 18:25:18 -0500</pubDate>
       
       <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/ml_key_terms/</guid>
       <description>During an interview process, interviewers generally ask and expect textbook definitions of basic terms. Interviewees, on the other hand must be prepared and answer them promptly. Lengthy and exploratory answers prevent interviewers from asking more probing questions.
-I noticed this issue on a recent interview. Here are some of them
 Confidence Interval A confidence interval is a range of values around the point estimate, constructed so that this range will contain the population parameter with a certain degree of confidence, expressed in percentage terms.</description>
     </item>
     
