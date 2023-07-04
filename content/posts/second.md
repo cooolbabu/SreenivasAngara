@@ -3,7 +3,7 @@ title: "Conversations with ChatGPT - Machine Learning"
 date: 2023-05-26T18:25:09-05:00
 draft: false
 
-weight: 50
+weight: 100
 
 tags: ["ML"]
 categories: ["ChatGPT"]

@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Machnine Language Terms - Cheat sheet"
 date: 2023-06-17T18:25:18-05:00
 draft: false
 
@@ -16,8 +16,6 @@ categories: ["ML", "ML_Terms"]
 ---
 
 During an interview process, interviewers generally ask and expect textbook definitions of basic terms. Interviewees, on the other hand must be prepared and answer them promptly. Lengthy and exploratory answers prevent interviewers from asking more probing questions.
-
-I noticed this issue on a recent interview. Here are some of them
 
 #### Confidence Interval
 
@@ -60,6 +58,8 @@ If we increase the bias of an overfit model, we are making the model simpler and
 - **Adjusted R-squared:** The adjusted R-squared is a modified version of R-squared that takes into account the number of independent variables present in the model. The R-squared always increases when a new independent variable is added to the model, irrespective of whether that variable adds value to the model or not. Hence, R-squared might be misleading when we have multiple independent variables and cannot identify unnecessary variables included in the model.
 - **RMSE:** RMSE stands for Root Mean Squared Error. It is calculated as the square root of the mean of the squared differences between the actual output and the predictions. The lower the RMSE the better the performance of the model. Mathematically, it can be given as follows:
   - However, when a new variable is added, the adjusted R-squared increases if that variable adds value to the model, and decreases if it does not. Hence, adjusted R-squared is a better choice of metric than R-squared to evaluate the quality of a regression model with multiple independent variables, because adjusted R-squared only remains high when all those independent variables are required to predict the value of the dependent variable well; it decreases if there are any independent variables which don't have a significant effect on the predicted variable.
+- **MAE:** The absolute error is the absolute value of the difference between the forecasted value and the actual value. MAE tells us how big of an error we can expect from the forecast on average.
+- **MAPE:** The mean absolute percentage error (MAPE) measures the accuracy of predictions as a percentage, and can be calculated as the average of absolute percentage error for all data points. The absolute percentage error is defined as predicted value minus actual values divided by actual values. It works best if there are no extreme values in the data and none of the actual values are 0.
 
 #### Classification model performance
 
