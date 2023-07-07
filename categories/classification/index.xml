@@ -6,17 +6,7 @@
     <description>Recent content in Classification on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jul 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/categories/classification/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Non-Linear Regression models</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/non-linearregression/</link>
-      <pubDate>Sun, 02 Jul 2023 18:25:18 -0500</pubDate>
-      
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/non-linearregression/</guid>
-      <description>Non-linear regression is a powerful technique used in statistics and machine learning to model and analyze complex relationships between variables. Unlike linear regression, which assumes a linear relationship between the independent and dependent variables, non-linear regression algorithms can capture more intricate and non-linear patterns. This makes them particularly useful when dealing with real-world phenomena where linear relationships are insufficient.
-Following Non-Linear regression models are covered in the attached Jypter notebook</description>
-    </item>
-    
+    <lastBuildDate>Sat, 17 Jun 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/categories/classification/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MIT-GreatLearning Applied Data Science program Capstone Project</title>
       <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/mit_capstone/</link>
