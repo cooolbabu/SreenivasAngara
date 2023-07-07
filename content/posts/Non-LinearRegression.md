@@ -10,7 +10,7 @@ cover:
   Alt: MIT logo
 
 tags: ["python", "jupyter"]
-categories: ["ML", "Classification"]
+categories: ["ML", "Regression"]
 ---
 
 Non-linear regression is a powerful technique used in statistics and machine learning to model and analyze complex relationships between variables. Unlike linear regression, which assumes a linear relationship between the independent and dependent variables, non-linear regression algorithms can capture more intricate and non-linear patterns. This makes them particularly useful when dealing with real-world phenomena where linear relationships are insufficient.
