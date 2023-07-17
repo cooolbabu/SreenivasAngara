@@ -68,7 +68,7 @@ body:not(.dark) #sun {
 
 #menu .active {
   font-weight: 700;
-  border-bottom: 2px solid #ffbc00;
+  border-bottom: 4px solid red;
 }
 
 .lang-switch li,
@@ -97,9 +97,9 @@ body:not(.dark) #sun {
   position: fixed;
   z-index: 9999;
   width: 100%;
-  /* background: linear-gradient(to bottom, var(--theme) 90%, var(--primary) 100%); */
-  /* opacity: 0.9; */
-  background-color: #5b7bb4;
+  background: linear-gradient(to bottom, var(--theme) 90%, var(--primary) 100%);
+  opacity: 0.9;
+  /* background-color: #5b7bb4; */
 
   /* background-color: #66ccff; */
   /* background-color: var(--theme); */
