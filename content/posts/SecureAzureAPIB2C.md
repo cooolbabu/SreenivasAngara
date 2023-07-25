@@ -1,5 +1,5 @@
 ---
-title: "Secure Azure APIs using Azure B2C Active Airectory - Sequence Diagram using Mermaid.js"
+title: "Secure Azure APIs using Azure B2C Active Directory - Sequence Diagram using Mermaid.js"
 date: 2023-07-24T18:25:02-05:00
 draft: false
 layout: ltr
