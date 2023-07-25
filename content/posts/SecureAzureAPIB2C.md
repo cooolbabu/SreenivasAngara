@@ -49,12 +49,11 @@ sequenceDiagram
     APIService -->>- User: jwt-token
 
     note over APIService: 3. Call REST Service
-    User ->>+ APIService: Invoke Products Service
-    APIService ->>+ AzureAD: Validate JWT
-    AzureAD -->>- APIService: JWT Validation Response
+    User ->>+ APIService: Invoke Products Service with jwt token
+    APIService ->> APIService: jwt-validate-policy
     APIService ->+ AzureFunctions: Call function method
     AzureFunctions -->>- APIService: Execute function
-    APIService -> APIService: Apply transformation policy
+    APIService ->> APIService: Apply transformation policy
     APIService -->>- User: Products Data
 
 ```
