@@ -111,6 +111,15 @@ Using rtl shortcode Hello .. this is left to right message </description>
     </item>
     
     <item>
+      <title>Secure Azure APIs using Azure B2C Active Airectory - Sequence Diagram using Mermaid.js</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/secureazureapib2c/</link>
+      <pubDate>Fri, 21 Apr 2023 18:25:02 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/secureazureapib2c/</guid>
+      <description>As an enterprise architect, using text-based diagrams can be a smarter approach for several reasons. Text-based diagrams offer superior portability and accessibility, as they are lightweight and can be shared as plain text files through various communication channels, reaching a broader audience without the need for specialized software. Furthermore, by being version-controlled using tools like Git, text-based diagrams facilitate seamless collaboration among team members, enabling efficient tracking of changes and supporting geographically dispersed teams.</description>
+    </item>
+    
+    <item>
       <title>Sreenivas Angara Resume</title>
       <link>https://cooolbabu.github.io/SreenivasAngara_beta1/experience/resume/</link>
       <pubDate>Fri, 21 Apr 2023 18:25:02 -0500</pubDate>
