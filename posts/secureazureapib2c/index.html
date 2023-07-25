@@ -60,12 +60,12 @@
 <meta property="og:description" content="As an enterprise architect, using text-based diagrams can be a smarter approach for several reasons. Text-based diagrams offer superior portability and accessibility, as they are lightweight and can be shared as plain text files through various communication channels, reaching a broader audience without the need for specialized software. Furthermore, by being version-controlled using tools like Git, text-based diagrams facilitate seamless collaboration among team members, enabling efficient tracking of changes and supporting geographically dispersed teams." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://cooolbabu.github.io/SreenivasAngara_beta1/posts/secureazureapib2c/" />
-<meta property="og:image" content="https://cooolbabu.github.io/SreenivasAngara_beta1/images/brain-circuit360.jpg" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-04-21T18:25:02-05:00" />
-<meta property="article:modified_time" content="2023-04-21T18:25:02-05:00" />
+<meta property="og:image" content="https://cooolbabu.github.io/SreenivasAngara_beta1/images/AzureAPIManagement.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-07-24T18:25:02-05:00" />
+<meta property="article:modified_time" content="2023-07-24T18:25:02-05:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://cooolbabu.github.io/SreenivasAngara_beta1/images/brain-circuit360.jpg" />
+<meta name="twitter:image" content="https://cooolbabu.github.io/SreenivasAngara_beta1/images/AzureAPIManagement.png" />
 <meta name="twitter:title" content="Secure Azure APIs using Azure B2C Active Airectory - Sequence Diagram using Mermaid.js"/>
 <meta name="twitter:description" content="As an enterprise architect, using text-based diagrams can be a smarter approach for several reasons. Text-based diagrams offer superior portability and accessibility, as they are lightweight and can be shared as plain text files through various communication channels, reaching a broader audience without the need for specialized software. Furthermore, by being version-controlled using tools like Git, text-based diagrams facilitate seamless collaboration among team members, enabling efficient tracking of changes and supporting geographically dispersed teams."/>
 
@@ -100,11 +100,11 @@
   "keywords": [
     "Mermaid"
   ],
-  "articleBody": "As an enterprise architect, using text-based diagrams can be a smarter approach for several reasons. Text-based diagrams offer superior portability and accessibility, as they are lightweight and can be shared as plain text files through various communication channels, reaching a broader audience without the need for specialized software. Furthermore, by being version-controlled using tools like Git, text-based diagrams facilitate seamless collaboration among team members, enabling efficient tracking of changes and supporting geographically dispersed teams. The absence of proprietary formats ensures long-term compatibility and mitigates issues related to software transitions. Additionally, integrating text-based diagrams within documentation enhances readability, provides context-rich understanding, and simplifies collaborative editing, enabling real-time updates. Overall, this method empowers architects to create clear and concise representations, while being programmatically generated from data sources, enhancing automation, consistency, and accessibility for all stakeholders.\nI found Mermaid to be good enough for small use cases. However, for more complex diagrams others like PlantUML is more suitable. However, Mermaid has the potential to become a strong contender as they rollout new features.\nKey benefit of using Mermaid - No server installation. Entire diagrams are rendered using JavaScript in the browser.\nAs a test case, I took one lesson from The Ultimate Azure API Management course and tried to capture a sequence diagram and capture configuration steps using Timeline Diagram\n%%{init: {'sequence': { 'mirrorActors': false, 'rightAngles': true, 'messageAlign': 'center', 'actorFontSize': 20, 'actorFontWeight': 900, 'noteFontSize': 18, 'noteFontWeight': 600, 'messageFontSize': 14}}}%% %%{init: {'theme': 'base', 'themeVariables': {'labelBoxBkgColor': 'lightgrey', 'labelBoxBorderColor': '#000000', 'actorBorder': '#D86613', 'actorBkg': '#ffffff', 'activationBorderColor': '#232F3E', 'activationBkgColor': '#D86613', 'noteBkgColor': 'rgba(255, 153, 0, .25)', 'noteBorderColor': '#232F3E'}}}%% sequenceDiagram title Sequence diagram to call API Service using Azure B2C Active directory participant User participant AzureAD as Azure Active Directory participant APIService as Azure API Services participant AzureFunctions as Azure Functions note over AzureAD: 1. Authenticate with AzureAD B2C Tenant User -\u003e\u003e+ AzureAD: Authenticate AzureAD -\u003e\u003e AzureAD: Execute signin-signup policy AzureAD -\u003e\u003e- User: Authenticated - Return UserObjectId note over APIService: 2. Authorization user with AzureAD B2C Tenant User -\u003e\u003e+ APIService: Request Authorization APIService -\u003e\u003e+ AzureAD: Authorize - UserObjectId/ClientId/Secret/Scope AzureAD --\u003e\u003e- APIService: jwt-token APIService --\u003e\u003e- User: jwt-token note over APIService: 3. Call REST Service User -\u003e\u003e+ APIService: Invoke Products Service APIService -\u003e\u003e+ AzureAD: Validate JWT AzureAD --\u003e\u003e- APIService: JWT Validation Response APIService -\u003e+ AzureFunctions: Call function method AzureFunctions --\u003e\u003e- APIService: Execute function APIService -\u003e APIService: Apply transformation policy APIService --\u003e\u003e- User: Products Data %%{init: { 'logLevel': 'debug', 'theme': 'default' , 'themeVariables': { 'cScale0': '#ff0055', 'cScaleLabel0': '#000', 'cScale1': '#b3ffd9', 'cScale2': '#99bbff', 'cScale3': '#001155', 'cScaleLabel3': '#ffffff' } } }%% timeline title Configuration - Securing API using Azure AD B2C section Config - Azure AD B2C Register BackendApp : Goto App Registration : Register BackendApp : Goto Certificates and Secrets : Create a secret : Goto Expose API : Create App Id Uri and scope : Save ClientId, Secret \u0026 Scope Register PortalApp : Goto App Registration : Register PortalApp - using Developer portal for this exercise : Goto Certificates and Secrets : Create a secret : Save ClientId \u0026 Secret : Add Authentation URL after configuring API Management services Create User flow : Goto Policies : Create Signup-Signin user flow : Attributes - Select Return Claim - userObjectId section Config - Azure Function Create Azure Function: Create FunctionApp : Create new function : Authentication - Add Identity Provider : Select Microsoft as Provider : Provide BackendApp details (ClientId/Secret) : Issuer Url - Signup-Signin user flow URL : NOTE- Connected Azure function to BackendApp registered in Azure B2C section Config - API Management Azure API Management Configuration : Import Function app : Goto - Config OAuth 2.0 : Set- Auth endpoint url : Set- Token endpoint Url : Set- Default Scope to BackendApp : Set- ClientId and Secret to BackendApp values : Save - Authorization grant flow url Use this value to set Authentication flow in PortalApp See Auth Flow step under Register Portal App : Configure Identities - Add identity Provider : Configure OAuth2.0 for API service section Test using Developer Portal Azure Developer Portal: Register user account : Validate user creation in AzureAD B2C tenant : Test API Service References :\nKevin Hakanson - Sequence Diagrams with Mermaid and Diagrams.net Mermaid Chart- Create complex, visual diagrams with text. A smarter way of creating diagrams Configure Hugo to render Mermaid Charts ",
-  "wordCount" : "708",
+  "articleBody": "As an enterprise architect, using text-based diagrams can be a smarter approach for several reasons. Text-based diagrams offer superior portability and accessibility, as they are lightweight and can be shared as plain text files through various communication channels, reaching a broader audience without the need for specialized software. Furthermore, by being version-controlled using tools like Git, text-based diagrams facilitate seamless collaboration among team members, enabling efficient tracking of changes and supporting geographically dispersed teams. The absence of proprietary formats ensures long-term compatibility and mitigates issues related to software transitions. Additionally, integrating text-based diagrams within documentation enhances readability, provides context-rich understanding, and simplifies collaborative editing, enabling real-time updates. Overall, this method empowers architects to create clear and concise representations, while being programmatically generated from data sources, enhancing automation, consistency, and accessibility for all stakeholders.\nI found Mermaid to be good enough for small use cases. However, for more complex diagrams others like PlantUML is more suitable. However, Mermaid has the potential to become a strong contender as they rollout new features.\nKey benefit of using Mermaid - No server installation. Entire diagrams are rendered using JavaScript in the browser.\nAs a test case, I took a lesson from The Ultimate Azure API Management course and tried to capture a sequence diagram and configuration steps using Timeline Diagram\n%%{init: {'sequence': { 'mirrorActors': false, 'rightAngles': true, 'messageAlign': 'center', 'actorFontSize': 20, 'actorFontWeight': 900, 'noteFontSize': 18, 'noteFontWeight': 600, 'messageFontSize': 14}}}%% %%{init: {'theme': 'base', 'themeVariables': {'labelBoxBkgColor': 'lightgrey', 'labelBoxBorderColor': '#000000', 'actorBorder': '#D86613', 'actorBkg': '#ffffff', 'activationBorderColor': '#232F3E', 'activationBkgColor': '#D86613', 'noteBkgColor': 'rgba(255, 153, 0, .25)', 'noteBorderColor': '#232F3E'}}}%% sequenceDiagram title Sequence diagram to call API Service using Azure B2C Active directory participant User participant AzureAD as Azure Active Directory participant APIService as Azure API Services participant AzureFunctions as Azure Functions note over AzureAD: 1. Authenticate with AzureAD B2C Tenant User -\u003e\u003e+ AzureAD: Authenticate AzureAD -\u003e\u003e AzureAD: Execute signin-signup policy AzureAD -\u003e\u003e- User: Authenticated - Return UserObjectId note over APIService: 2. Authorization user with AzureAD B2C Tenant User -\u003e\u003e+ APIService: Request Authorization APIService -\u003e\u003e+ AzureAD: Authorize - UserObjectId/ClientId/Secret/Scope AzureAD --\u003e\u003e- APIService: jwt-token APIService --\u003e\u003e- User: jwt-token note over APIService: 3. Call REST Service User -\u003e\u003e+ APIService: Invoke Products Service APIService -\u003e\u003e+ AzureAD: Validate JWT AzureAD --\u003e\u003e- APIService: JWT Validation Response APIService -\u003e+ AzureFunctions: Call function method AzureFunctions --\u003e\u003e- APIService: Execute function APIService -\u003e APIService: Apply transformation policy APIService --\u003e\u003e- User: Products Data %%{init: { 'logLevel': 'debug', 'theme': 'default' , 'themeVariables': { 'cScale0': '#ff0055', 'cScaleLabel0': '#000', 'cScale1': '#b3ffd9', 'cScale2': '#99bbff', 'cScale3': '#001155', 'cScaleLabel3': '#ffffff' } } }%% timeline title Configuration - Securing API using Azure AD B2C section Config - Azure AD B2C Register BackendApp : Goto App Registration : Register BackendApp : Goto Certificates and Secrets : Create a secret : Goto Expose API : Create App Id Uri and scope : Save ClientId, Secret \u0026 Scope Register PortalApp : Goto App Registration : Register PortalApp - using Developer portal for this exercise : Goto Certificates and Secrets : Create a secret : Save ClientId \u0026 Secret : Add Authentation URL after configuring API Management services Create User flow : Goto Policies : Create Signup-Signin user flow : Attributes - Select Return Claim - userObjectId section Config - Azure Function Create Azure Function: Create FunctionApp : Create new function : Authentication - Add Identity Provider : Select Microsoft as Provider : Provide BackendApp details (ClientId/Secret) : Issuer Url - Signup-Signin user flow URL : NOTE- Connected Azure function to BackendApp registered in Azure B2C section Config - API Management Azure API Management Configuration : Import Function app : Goto - Config OAuth 2.0 : Set- Auth endpoint url : Set- Token endpoint Url : Set- Default Scope to BackendApp : Set- ClientId and Secret to BackendApp values : Save - Authorization grant flow url Use this value to set Authentication flow in PortalApp See Auth Flow step under Register Portal App : Configure Identities - Add identity Provider : Configure OAuth2.0 for API service section Test using Developer Portal Azure Developer Portal: Register user account : Validate user creation in AzureAD B2C tenant : Test API Service Source code for Sequence diagram\n%%{init: {'sequence': { 'mirrorActors': false, 'rightAngles': true, 'messageAlign': 'center', 'actorFontSize': 20, 'actorFontWeight': 900, 'noteFontSize': 18, 'noteFontWeight': 600, 'messageFontSize': 14}}}%% %%{init: {'theme': 'base', 'themeVariables': {'labelBoxBkgColor': 'lightgrey', 'labelBoxBorderColor': '#000000', 'actorBorder': '#D86613', 'actorBkg': '#ffffff', 'activationBorderColor': '#232F3E', 'activationBkgColor': '#D86613', 'noteBkgColor': 'rgba(255, 153, 0, .25)', 'noteBorderColor': '#232F3E'}}}%% sequenceDiagram title Sequence diagram to call API Service using Azure B2C Active directory participant User participant AzureAD as Azure Active Directory participant APIService as Azure API Services participant AzureFunctions as Azure Functions note over AzureAD: 1. Authenticate with AzureAD B2C Tenant User -\u003e\u003e+ AzureAD: Authenticate AzureAD -\u003e\u003e AzureAD: Execute signin-signup policy AzureAD -\u003e\u003e- User: Authenticated - Return UserObjectId note over APIService: 2. Authorization user with AzureAD B2C Tenant User -\u003e\u003e+ APIService: Request Authorization APIService -\u003e\u003e+ AzureAD: Authorize - UserObjectId/ClientId/Secret/Scope AzureAD --\u003e\u003e- APIService: jwt-token APIService --\u003e\u003e- User: jwt-token note over APIService: 3. Call REST Service User -\u003e\u003e+ APIService: Invoke Products Service APIService -\u003e\u003e+ AzureAD: Validate JWT AzureAD --\u003e\u003e- APIService: JWT Validation Response APIService -\u003e+ AzureFunctions: Call function method AzureFunctions --\u003e\u003e- APIService: Execute function APIService -\u003e APIService: Apply transformation policy APIService --\u003e\u003e- User: Products Data Source code for Timeline\n%%{init: { 'logLevel': 'debug', 'theme': 'default' , 'themeVariables': { 'cScale0': '#ff0055', 'cScaleLabel0': '#000', 'cScale1': '#b3ffd9', 'cScale2': '#99bbff', 'cScale3': '#001155', 'cScaleLabel3': '#ffffff' } } }%% timeline title Configuration - Securing API using Azure AD B2C section Config - Azure AD B2C Register BackendApp : Goto App Registration : Register BackendApp : Goto Certificates and Secrets : Create a secret : Goto Expose API : Create App Id Uri and scope : Save ClientId, Secret \u0026 Scope Register PortalApp : Goto App Registration : Register PortalApp - using Developer portal for this exercise : Goto Certificates and Secrets : Create a secret : Save ClientId \u0026 Secret : Add Authentation URL after configuring API Management services Create User flow : Goto Policies : Create Signup-Signin user flow : Attributes - Select Return Claim - userObjectId section Config - Azure Function Create Azure Function: Create FunctionApp : Create new function : Authentication - Add Identity Provider : Select Microsoft as Provider : Provide BackendApp details (ClientId/Secret) : Issuer Url - Signup-Signin user flow URL : NOTE- Connected Azure function to BackendApp registered in Azure B2C section Config - API Management Azure API Management Configuration : Import Function app : Goto - Config OAuth 2.0 : Set- Auth endpoint url : Set- Token endpoint Url : Set- Default Scope to BackendApp : Set- ClientId and Secret to BackendApp values : Save - Authorization grant flow url Use this value to set Authentication flow in PortalApp See Auth Flow step under Register Portal App : Configure Identities - Add identity Provider : Configure OAuth2.0 for API service section Test using Developer Portal Azure Developer Portal: Register user account : Validate user creation in AzureAD B2C tenant : Test API Service References :\nKevin Hakanson - Sequence Diagrams with Mermaid and Diagrams.net Mermaid Chart- Create complex, visual diagrams with text. A smarter way of creating diagrams Configure Hugo to render Mermaid Charts ",
+  "wordCount" : "1178",
   "inLanguage": "en",
-  "image":"https://cooolbabu.github.io/SreenivasAngara_beta1/images/brain-circuit360.jpg","datePublished": "2023-04-21T18:25:02-05:00",
-  "dateModified": "2023-04-21T18:25:02-05:00",
+  "image":"https://cooolbabu.github.io/SreenivasAngara_beta1/images/AzureAPIManagement.png","datePublished": "2023-07-24T18:25:02-05:00",
+  "dateModified": "2023-07-24T18:25:02-05:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://cooolbabu.github.io/SreenivasAngara_beta1/posts/secureazureapib2c/"
@@ -199,13 +199,13 @@
 <article class="post-single">
   <header class="post-header">
     <div class="breadcrumbs"><a href="https://cooolbabu.github.io/SreenivasAngara_beta1/">Home</a>&nbsp;»&nbsp;<a href="https://cooolbabu.github.io/SreenivasAngara_beta1/posts/">Posts</a></div> 
-<figure class="entry-cover"><img loading="lazy" src="https://cooolbabu.github.io/SreenivasAngara_beta1/images/brain-circuit360.jpg" alt="This is an brain image">
+<figure class="entry-cover"><img loading="lazy" src="https://cooolbabu.github.io/SreenivasAngara_beta1/images/AzureAPIManagement.png" alt="Azure API Management">
         
 </figure>
     <h1 class="post-title">
       Secure Azure APIs using Azure B2C Active Airectory - Sequence Diagram using Mermaid.js
     </h1>
-    <div class="post-meta"><span title='2023-04-21 18:25:02 -0500 -0500'>April 21, 2023</span>&nbsp;·&nbsp;4 min
+    <div class="post-meta"><span title='2023-07-24 18:25:02 -0500 -0500'>July 24, 2023</span>&nbsp;·&nbsp;6 min
 
 </div>
     <br />
@@ -215,7 +215,7 @@
   <div class="post-content"><p>As an enterprise architect, using text-based diagrams can be a smarter approach for several reasons. Text-based diagrams offer superior portability and accessibility, as they are lightweight and can be shared as plain text files through various communication channels, reaching a broader audience without the need for specialized software. Furthermore, by being version-controlled using tools like Git, text-based diagrams facilitate seamless collaboration among team members, enabling efficient tracking of changes and supporting geographically dispersed teams. The absence of proprietary formats ensures long-term compatibility and mitigates issues related to software transitions. Additionally, integrating text-based diagrams within documentation enhances readability, provides context-rich understanding, and simplifies collaborative editing, enabling real-time updates. Overall, this method empowers architects to create clear and concise representations, while being programmatically generated from data sources, enhancing automation, consistency, and accessibility for all stakeholders.</p>
 <p>I found Mermaid to be good enough for small use cases. However, for more complex diagrams others like PlantUML is more suitable. However, Mermaid has the potential to become a strong contender as they rollout new features.</p>
 <p>Key benefit of using Mermaid - No server installation. Entire diagrams are rendered using JavaScript in the browser.</p>
-<p>As a test case, I took one lesson from <a href="https://www.udemy.com/course/the-ultimate-azure-api-management-course/">The Ultimate Azure API Management course</a> and tried to capture a sequence diagram and capture configuration steps using Timeline Diagram</p>
+<p>As a test case, I took a lesson from <a href="https://www.udemy.com/course/the-ultimate-azure-api-management-course/">The Ultimate Azure API Management course</a> and tried to capture a sequence diagram and configuration steps using Timeline Diagram</p>
 <pre class="mermaid">%%{init: {'sequence': { 'mirrorActors': false, 'rightAngles': true, 'messageAlign': 'center', 'actorFontSize': 20, 'actorFontWeight': 900, 'noteFontSize': 18, 'noteFontWeight': 600, 'messageFontSize': 14}}}%%
 %%{init: {'theme': 'base', 'themeVariables': {'labelBoxBkgColor': 'lightgrey', 'labelBoxBorderColor': '#000000', 'actorBorder': '#D86613', 'actorBkg': '#ffffff', 'activationBorderColor': '#232F3E', 'activationBkgColor': '#D86613', 'noteBkgColor': 'rgba(255, 153, 0, .25)', 'noteBorderColor': '#232F3E'}}}%%
 
@@ -307,6 +307,95 @@ timeline
   </pre
 >
 
+<p><strong>Source code for Sequence diagram</strong></p>
+<pre><code>%%{init: {'sequence': { 'mirrorActors': false, 'rightAngles': true, 'messageAlign': 'center', 'actorFontSize': 20, 'actorFontWeight': 900, 'noteFontSize': 18, 'noteFontWeight': 600, 'messageFontSize': 14}}}%%
+%%{init: {'theme': 'base', 'themeVariables': {'labelBoxBkgColor': 'lightgrey', 'labelBoxBorderColor': '#000000', 'actorBorder': '#D86613', 'actorBkg': '#ffffff', 'activationBorderColor': '#232F3E', 'activationBkgColor': '#D86613', 'noteBkgColor': 'rgba(255, 153, 0, .25)', 'noteBorderColor': '#232F3E'}}}%%
+
+
+sequenceDiagram
+    title Sequence diagram to call API Service using Azure B2C Active directory
+    participant User
+    participant AzureAD as Azure Active Directory
+    participant APIService as Azure API Services
+    participant AzureFunctions as Azure Functions
+
+    note over AzureAD: 1. Authenticate with AzureAD B2C Tenant
+
+    User -&gt;&gt;+ AzureAD: Authenticate
+    AzureAD -&gt;&gt; AzureAD: Execute signin-signup policy
+    AzureAD -&gt;&gt;- User: Authenticated - Return UserObjectId
+
+    note over APIService: 2. Authorization user with AzureAD B2C Tenant
+    User -&gt;&gt;+ APIService: Request Authorization
+    APIService -&gt;&gt;+ AzureAD: Authorize - UserObjectId/ClientId/Secret/Scope
+    AzureAD --&gt;&gt;- APIService: jwt-token
+    APIService --&gt;&gt;- User: jwt-token
+
+    note over APIService: 3. Call REST Service
+    User -&gt;&gt;+ APIService: Invoke Products Service
+    APIService -&gt;&gt;+ AzureAD: Validate JWT
+    AzureAD --&gt;&gt;- APIService: JWT Validation Response
+    APIService -&gt;+ AzureFunctions: Call function method
+    AzureFunctions --&gt;&gt;- APIService: Execute function
+    APIService -&gt; APIService: Apply transformation policy
+    APIService --&gt;&gt;- User: Products Data
+</code></pre>
+<p><strong>Source code for Timeline</strong></p>
+<pre><code>%%{init: { 'logLevel': 'debug', 'theme': 'default' , 'themeVariables': {
+              'cScale0': '#ff0055', 'cScaleLabel0': '#000',
+              'cScale1': '#b3ffd9',
+              'cScale2': '#99bbff',
+              'cScale3': '#001155', 'cScaleLabel3': '#ffffff'
+      } } }%%
+
+timeline
+    title Configuration - Securing API using Azure AD B2C
+    section Config - Azure AD B2C
+    Register BackendApp : Goto App Registration
+                        : Register BackendApp
+                        : Goto Certificates and Secrets
+                        : Create a secret
+                        : Goto Expose API
+                        : Create App Id Uri and scope
+                        : Save ClientId, Secret &amp; Scope
+    Register PortalApp  : Goto App Registration
+                        : Register PortalApp - using Developer portal for this exercise
+                        : Goto Certificates and Secrets
+                        : Create a secret
+                        : Save ClientId &amp; Secret
+                        : Add Authentation URL after configuring API Management services
+
+    Create User flow     : Goto Policies
+                        : Create Signup-Signin user flow
+                        : Attributes - Select Return Claim - userObjectId
+
+    section Config - Azure Function
+    Create Azure Function: Create FunctionApp
+                        : Create new function
+                        : Authentication - Add Identity Provider
+                        : Select Microsoft as Provider
+                        : Provide BackendApp details (ClientId/Secret)
+                        : Issuer Url - Signup-Signin user flow URL
+                        : NOTE- Connected Azure function to BackendApp registered in Azure B2C
+
+    section Config - API Management
+    Azure API Management Configuration : Import Function app
+                        : Goto - Config OAuth 2.0
+                        : Set- Auth endpoint url
+                        : Set- Token endpoint Url
+                        : Set- Default Scope to BackendApp
+                        : Set- ClientId and Secret to BackendApp values
+                        : Save - Authorization grant flow url &lt;br&gt; Use this value to set Authentication flow in PortalApp &lt;br&gt; See Auth Flow step under Register Portal App
+                        : Configure Identities - Add identity Provider
+                        : Configure OAuth2.0 for API service
+
+
+
+    section Test using Developer Portal
+    Azure Developer Portal: Register user account
+                          : Validate user creation in AzureAD B2C tenant
+                          : Test API Service
+</code></pre>
 <p><em>References :</em></p>
 <ul>
 <li><a href="https://kevinhakanson.com/2022-10-02-sequence-diagrams-with-mermaid-and-diagramsnet/">Kevin Hakanson - Sequence Diagrams with Mermaid and Diagrams.net</a></li>
@@ -322,10 +411,10 @@ timeline
       <li><a href="https://cooolbabu.github.io/SreenivasAngara_beta1/tags/mermaid/">Mermaid</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://cooolbabu.github.io/SreenivasAngara_beta1/posts/first/">
-    <span class="title">« Prev</span>
+  <a class="next" href="https://cooolbabu.github.io/SreenivasAngara_beta1/posts/non-linearregression/">
+    <span class="title">Next »</span>
     <br>
-    <span>Scratchpad</span>
+    <span>Non-Linear Regression models</span>
   </a>
 </nav>
 

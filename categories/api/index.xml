@@ -6,7 +6,16 @@
     <description>Recent content in API on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 May 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/categories/api/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jul 2023 18:25:02 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/categories/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Secure Azure APIs using Azure B2C Active Airectory - Sequence Diagram using Mermaid.js</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/secureazureapib2c/</link>
+      <pubDate>Mon, 24 Jul 2023 18:25:02 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/secureazureapib2c/</guid>
+      <description>As an enterprise architect, using text-based diagrams can be a smarter approach for several reasons. Text-based diagrams offer superior portability and accessibility, as they are lightweight and can be shared as plain text files through various communication channels, reaching a broader audience without the need for specialized software. Furthermore, by being version-controlled using tools like Git, text-based diagrams facilitate seamless collaboration among team members, enabling efficient tracking of changes and supporting geographically dispersed teams.</description>
+    </item>
+    
     <item>
       <title>WIP - API Management Concepts</title>
       <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/api_management/</link>
@@ -28,15 +37,6 @@ API Management API Mangagement is a process of creating and publishing web appli
 Applications: Web apps, REST services, SOA, JMS messaging
 Layers: Presentation layer, Buiness Layer, Database Layer (use mermaid.js for text to Illustration)
 Key concepts: Dependency Injection: Promotes loose coupling .. examples ??? Aspect Orient Programming: Apply application wide services to an application in a declarative fashion Logging, Transactions, Security POJO - Plain Old java object</description>
-    </item>
-    
-    <item>
-      <title>Secure Azure APIs using Azure B2C Active Airectory - Sequence Diagram using Mermaid.js</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/secureazureapib2c/</link>
-      <pubDate>Fri, 21 Apr 2023 18:25:02 -0500</pubDate>
-      
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/secureazureapib2c/</guid>
-      <description>As an enterprise architect, using text-based diagrams can be a smarter approach for several reasons. Text-based diagrams offer superior portability and accessibility, as they are lightweight and can be shared as plain text files through various communication channels, reaching a broader audience without the need for specialized software. Furthermore, by being version-controlled using tools like Git, text-based diagrams facilitate seamless collaboration among team members, enabling efficient tracking of changes and supporting geographically dispersed teams.</description>
     </item>
     
   </channel>
