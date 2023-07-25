@@ -51,7 +51,7 @@ sequenceDiagram
     note over APIService: 3. Call REST Service
     User ->>+ APIService: Invoke Products Service with jwt token
     APIService ->> APIService: jwt-validate-policy
-    APIService ->+ AzureFunctions: Call function method
+    APIService ->>+ AzureFunctions: Call function method
     AzureFunctions -->>- APIService: Product details response
     APIService ->> APIService: Apply transformation policy
     APIService -->>- User: Products Data
