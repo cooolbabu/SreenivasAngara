@@ -1,14 +1,14 @@
 ---
 title: "Secure Azure APIs using Azure B2C Active Airectory - Sequence Diagram using Mermaid.js"
-date: 2023-04-21T18:25:02-05:00
+date: 2023-07-24T18:25:02-05:00
 draft: false
 layout: ltr
 
-weight: 1000
+weight: 100
 
 cover:
-  image: "images/brain-circuit360.jpg"
-  Alt: This is an brain image
+  image: "images/AzureAPIManagement.png"
+  Alt: Azure API Management
   imageWidth: 400
   imageHeight: 400
 
@@ -22,7 +22,7 @@ I found Mermaid to be good enough for small use cases. However, for more complex
 
 Key benefit of using Mermaid - No server installation. Entire diagrams are rendered using JavaScript in the browser.
 
-As a test case, I took one lesson from [The Ultimate Azure API Management course](https://www.udemy.com/course/the-ultimate-azure-api-management-course/) and tried to capture a sequence diagram and capture configuration steps using Timeline Diagram
+As a test case, I took a lesson from [The Ultimate Azure API Management course](https://www.udemy.com/course/the-ultimate-azure-api-management-course/) and tried to capture a sequence diagram and configuration steps using Timeline Diagram
 
 ```mermaid
 %%{init: {'sequence': { 'mirrorActors': false, 'rightAngles': true, 'messageAlign': 'center', 'actorFontSize': 20, 'actorFontWeight': 900, 'noteFontSize': 18, 'noteFontWeight': 600, 'messageFontSize': 14}}}%%
@@ -116,6 +116,97 @@ timeline
                           : Test API Service
 
 ```
+
+**Source code for Sequence diagram**
+
+    %%{init: {'sequence': { 'mirrorActors': false, 'rightAngles': true, 'messageAlign': 'center', 'actorFontSize': 20, 'actorFontWeight': 900, 'noteFontSize': 18, 'noteFontWeight': 600, 'messageFontSize': 14}}}%%
+    %%{init: {'theme': 'base', 'themeVariables': {'labelBoxBkgColor': 'lightgrey', 'labelBoxBorderColor': '#000000', 'actorBorder': '#D86613', 'actorBkg': '#ffffff', 'activationBorderColor': '#232F3E', 'activationBkgColor': '#D86613', 'noteBkgColor': 'rgba(255, 153, 0, .25)', 'noteBorderColor': '#232F3E'}}}%%
+
+
+    sequenceDiagram
+        title Sequence diagram to call API Service using Azure B2C Active directory
+        participant User
+        participant AzureAD as Azure Active Directory
+        participant APIService as Azure API Services
+        participant AzureFunctions as Azure Functions
+
+        note over AzureAD: 1. Authenticate with AzureAD B2C Tenant
+
+        User ->>+ AzureAD: Authenticate
+        AzureAD ->> AzureAD: Execute signin-signup policy
+        AzureAD ->>- User: Authenticated - Return UserObjectId
+
+        note over APIService: 2. Authorization user with AzureAD B2C Tenant
+        User ->>+ APIService: Request Authorization
+        APIService ->>+ AzureAD: Authorize - UserObjectId/ClientId/Secret/Scope
+        AzureAD -->>- APIService: jwt-token
+        APIService -->>- User: jwt-token
+
+        note over APIService: 3. Call REST Service
+        User ->>+ APIService: Invoke Products Service
+        APIService ->>+ AzureAD: Validate JWT
+        AzureAD -->>- APIService: JWT Validation Response
+        APIService ->+ AzureFunctions: Call function method
+        AzureFunctions -->>- APIService: Execute function
+        APIService -> APIService: Apply transformation policy
+        APIService -->>- User: Products Data
+
+**Source code for Timeline**
+
+    %%{init: { 'logLevel': 'debug', 'theme': 'default' , 'themeVariables': {
+                  'cScale0': '#ff0055', 'cScaleLabel0': '#000',
+                  'cScale1': '#b3ffd9',
+                  'cScale2': '#99bbff',
+                  'cScale3': '#001155', 'cScaleLabel3': '#ffffff'
+          } } }%%
+
+    timeline
+        title Configuration - Securing API using Azure AD B2C
+        section Config - Azure AD B2C
+        Register BackendApp : Goto App Registration
+                            : Register BackendApp
+                            : Goto Certificates and Secrets
+                            : Create a secret
+                            : Goto Expose API
+                            : Create App Id Uri and scope
+                            : Save ClientId, Secret & Scope
+        Register PortalApp  : Goto App Registration
+                            : Register PortalApp - using Developer portal for this exercise
+                            : Goto Certificates and Secrets
+                            : Create a secret
+                            : Save ClientId & Secret
+                            : Add Authentation URL after configuring API Management services
+
+        Create User flow     : Goto Policies
+                            : Create Signup-Signin user flow
+                            : Attributes - Select Return Claim - userObjectId
+
+        section Config - Azure Function
+        Create Azure Function: Create FunctionApp
+                            : Create new function
+                            : Authentication - Add Identity Provider
+                            : Select Microsoft as Provider
+                            : Provide BackendApp details (ClientId/Secret)
+                            : Issuer Url - Signup-Signin user flow URL
+                            : NOTE- Connected Azure function to BackendApp registered in Azure B2C
+
+        section Config - API Management
+        Azure API Management Configuration : Import Function app
+                            : Goto - Config OAuth 2.0
+                            : Set- Auth endpoint url
+                            : Set- Token endpoint Url
+                            : Set- Default Scope to BackendApp
+                            : Set- ClientId and Secret to BackendApp values
+                            : Save - Authorization grant flow url <br> Use this value to set Authentication flow in PortalApp <br> See Auth Flow step under Register Portal App
+                            : Configure Identities - Add identity Provider
+                            : Configure OAuth2.0 for API service
+
+
+
+        section Test using Developer Portal
+        Azure Developer Portal: Register user account
+                              : Validate user creation in AzureAD B2C tenant
+                              : Test API Service
 
 _References :_
 
