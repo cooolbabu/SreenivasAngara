@@ -52,7 +52,7 @@ sequenceDiagram
     User ->>+ APIService: Invoke Products Service with jwt token
     APIService ->> APIService: jwt-validate-policy
     APIService ->+ AzureFunctions: Call function method
-    AzureFunctions -->>- APIService: Execute function
+    AzureFunctions -->>- APIService: Product details response
     APIService ->> APIService: Apply transformation policy
     APIService -->>- User: Products Data
 
