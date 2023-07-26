@@ -12,7 +12,7 @@ cover:
   imageWidth: 400
   imageHeight: 400
 
-tags: ["Mermaid"]
+tags: ["Mermaid", "Azure", "API"]
 categories: ["Mermaid", "Azure", "API"]
 ---
 
@@ -107,8 +107,6 @@ timeline
                          : Configure Identities - Add identity Provider
                          : Configure OAuth2.0 for API service
 
-
-
     section Test using Developer Portal
     Azure Developer Portal: Register user account
                           : Validate user creation in AzureAD B2C tenant
@@ -120,7 +118,6 @@ timeline
 
     %%{init: {'sequence': { 'mirrorActors': false, 'rightAngles': true, 'messageAlign': 'center', 'actorFontSize': 20, 'actorFontWeight': 900, 'noteFontSize': 18, 'noteFontWeight': 600, 'messageFontSize': 14}}}%%
     %%{init: {'theme': 'base', 'themeVariables': {'labelBoxBkgColor': 'lightgrey', 'labelBoxBorderColor': '#000000', 'actorBorder': '#D86613', 'actorBkg': '#ffffff', 'activationBorderColor': '#232F3E', 'activationBkgColor': '#D86613', 'noteBkgColor': 'rgba(255, 153, 0, .25)', 'noteBorderColor': '#232F3E'}}}%%
-
 
     sequenceDiagram
         title Sequence diagram to call API Service using Azure B2C Active directory
@@ -142,12 +139,11 @@ timeline
         APIService -->>- User: jwt-token
 
         note over APIService: 3. Call REST Service
-        User ->>+ APIService: Invoke Products Service
-        APIService ->>+ AzureAD: Validate JWT
-        AzureAD -->>- APIService: JWT Validation Response
-        APIService ->+ AzureFunctions: Call function method
-        AzureFunctions -->>- APIService: Execute function
-        APIService -> APIService: Apply transformation policy
+        User ->>+ APIService: Invoke Products Service with jwt token
+        APIService ->> APIService: jwt-validate-policy
+        APIService ->>+ AzureFunctions: Call function method
+        AzureFunctions -->>- APIService: Product details response
+        APIService ->> APIService: Apply transformation policy
         APIService -->>- User: Products Data
 
 **Source code for Timeline**
