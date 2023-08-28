@@ -23,11 +23,12 @@ categories: ["resume"]
 
 <hr>
 <br>
+[](../../images/Sreenivas Angara.pdf)
 
-#### &dArr;&dArr; PDF version may take a few seconds to download. It will displayed here after download &dArr;&dArr;
 
 {{<rawhtml>}}
 
-<iframe src="https://onedrive.live.com/embed?cid=8B1CE08D70D99EF5&resid=8B1CE08D70D99EF5%213233&authkey=AJRj1V3CKkoinLQ&em=2" width="900" height="1200" frameborder="0" scrolling="no"></iframe>
+
+<object data="../../images/Sreenivas Angara.pdf" type="application/pdf" width="100%" height="800px">
 
 {{</rawhtml>}}
