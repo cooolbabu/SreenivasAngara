@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Azure Data Factory on Sreenivas R Angara</title>
+    <link>https://cooolbabu.github.io/SreenivasAngara_beta1/tags/azure-data-factory/</link>
+    <description>Recent content in Azure Data Factory on Sreenivas R Angara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Aug 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/tags/azure-data-factory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure Data Factory Copy Activity: The Swiss Army Knife of Data Integration</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/azurecopyactivity/</link>
+      <pubDate>Mon, 28 Aug 2023 18:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/azurecopyactivity/</guid>
+      <description>Think of Azure Data Factory&amp;rsquo;s Copy Activity as the Swiss Army knife of data integration. Just as a Swiss Army knife combines various tools into one compact design, Copy Activity seamlessly combines multiple data integration functions into a single, powerful feature.
+Versatility: Just like a Swiss Army knife&amp;rsquo;s ability to handle various tasks, Copy Activity connects to diverse data sources and destinations, whether they&amp;rsquo;re in the cloud or on-premises.
+Efficiency: Like a Swiss Army knife&amp;rsquo;s efficiency in handling different tasks, Copy Activity streamlines data movement and transformation in a single step.</description>
+    </item>
+    
+  </channel>
+</rss>
