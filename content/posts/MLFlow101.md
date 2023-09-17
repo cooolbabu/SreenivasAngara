@@ -6,7 +6,7 @@ draft: false
 weight: 100
 
 cover:
-  image: "images/MLflow-logo-final-black.png"
+  image: "images/MLflow-logo-final-black_sm.png"
   Alt: MLFlow
   imageWidth: 300
   imageHeight: 300
