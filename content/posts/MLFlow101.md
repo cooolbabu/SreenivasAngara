@@ -41,4 +41,3 @@ Perseverance wins at the end of the day.
 
 {{< notebook Iris-KNNClassifier 9000 >}}
 
-_Github :_ [Sample code](https://github.com/cooolbabu/AzureWS-2)
