@@ -1,7 +1,7 @@
 ---
 title: "MIT Professional education - Applied Data Science and Machine Learning"
 date: 2023-07-26T09:25:02-05:00
-draft: true
+draft: false
 layout: rtl
 
 weight: 1000
