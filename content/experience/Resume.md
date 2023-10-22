@@ -17,7 +17,7 @@ categories: ["resume"]
 
 #### 🔗 [Credly](https://www.credly.com/users/sreenivas-angara.6daf08d6)
 
-{{< figure src="../../images/Certs2.png" alt="Certifications" width="90%">}}
+{{< figure src="../../images/certs3.png" alt="Certifications" width="70%">}}
 
 <hr>
 <br>
