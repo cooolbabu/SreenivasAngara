@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Azure on Sreenivas R Angara</title>
-    <link>https://cooolbabu.github.io/SreenivasAngara_beta1/tags/azure/</link>
+    <link>https://cooolbabu.github.io/SreenivasAngara/tags/azure/</link>
     <description>Recent content in Azure on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jul 2023 18:25:02 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jul 2023 18:25:02 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Secure Azure APIs using Azure B2C Active Directory - Sequence Diagram using Mermaid.js</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/secureazureapib2c/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/secureazureapib2c/</link>
       <pubDate>Mon, 24 Jul 2023 18:25:02 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/secureazureapib2c/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/secureazureapib2c/</guid>
       <description>As an enterprise architect, using text-based diagrams can be a smarter approach for several reasons. Text-based diagrams offer superior portability and accessibility, as they are lightweight and can be shared as plain text files through various communication channels, reaching a broader audience without the need for specialized software. Furthermore, by being version-controlled using tools like Git, text-based diagrams facilitate seamless collaboration among team members, enabling efficient tracking of changes and supporting geographically dispersed teams.</description>
     </item>
     

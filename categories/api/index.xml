@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>API on Sreenivas R Angara</title>
-    <link>https://cooolbabu.github.io/SreenivasAngara_beta1/categories/api/</link>
+    <link>https://cooolbabu.github.io/SreenivasAngara/categories/api/</link>
     <description>Recent content in API on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jul 2023 18:25:02 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/categories/api/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jul 2023 18:25:02 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/categories/api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Secure Azure APIs using Azure B2C Active Directory - Sequence Diagram using Mermaid.js</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/secureazureapib2c/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/secureazureapib2c/</link>
       <pubDate>Mon, 24 Jul 2023 18:25:02 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/secureazureapib2c/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/secureazureapib2c/</guid>
       <description>As an enterprise architect, using text-based diagrams can be a smarter approach for several reasons. Text-based diagrams offer superior portability and accessibility, as they are lightweight and can be shared as plain text files through various communication channels, reaching a broader audience without the need for specialized software. Furthermore, by being version-controlled using tools like Git, text-based diagrams facilitate seamless collaboration among team members, enabling efficient tracking of changes and supporting geographically dispersed teams.</description>
     </item>
     
     <item>
       <title>WIP - API Management Concepts</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/api_management/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/api_management/</link>
       <pubDate>Sun, 21 May 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/api_management/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/api_management/</guid>
       <description>WIP - Putting my thoughts together a future article on Azure API Management. Policies Authentication Policies Access Restriction Policy Caching Policy Cross Domain Policies Transformation Policies Advanced Policies
 Microservice Microservices are fine grained loosely coupled services communicating through light-weight protocols. Azure functions versus Docker. Portability versus serverless
 API Management API Mangagement is a process of creating and publishing web application programming interfaces. Enforce usage policies, control access and analyse usage statistics</description>
@@ -29,10 +29,10 @@ API Management API Mangagement is a process of creating and publishing web appli
     
     <item>
       <title>WIP - Application Platforms</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/appcontainers/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/appcontainers/</link>
       <pubDate>Sun, 21 May 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/appcontainers/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/appcontainers/</guid>
       <description>WIP - A future article on Enterprise Application Platforms Platforms: JBoss, Microsoft Entity Framework Core, SpringBoot
 Applications: Web apps, REST services, SOA, JMS messaging
 Layers: Presentation layer, Buiness Layer, Database Layer (use mermaid.js for text to Illustration)

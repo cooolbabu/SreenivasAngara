@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MLOps on Sreenivas R Angara</title>
-    <link>https://cooolbabu.github.io/SreenivasAngara_beta1/tags/mlops/</link>
+    <link>https://cooolbabu.github.io/SreenivasAngara/tags/mlops/</link>
     <description>Recent content in MLOps on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Sep 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/tags/mlops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Sep 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/tags/mlops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MLFlow 101 - Dev to Production Environment in a single notebook</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/mlflow101/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/mlflow101/</link>
       <pubDate>Sat, 16 Sep 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/mlflow101/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/mlflow101/</guid>
       <description>MLflow is an open-source platform designed to streamline the machine learning (ML) lifecycle. It was developed by Databricks and has gained widespread adoption within the data science and machine learning communities. MLflow provides a comprehensive set of tools and libraries for managing the end-to-end process of developing, deploying, and maintaining machine learning models.
 Key features of MLflow include:
 Experiment Tracking: MLflow allows data scientists and engineers to keep track of their experiments.</description>

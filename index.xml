@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sreenivas R Angara</title>
-    <link>https://cooolbabu.github.io/SreenivasAngara_beta1/</link>
+    <link>https://cooolbabu.github.io/SreenivasAngara/</link>
     <description>Recent content on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Oct 2023 18:25:02 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara_beta1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Oct 2023 18:25:02 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MLFlow 101 - Dev to Production Environment in a single notebook</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/mlflow101/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/mlflow101/</link>
       <pubDate>Sat, 16 Sep 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/mlflow101/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/mlflow101/</guid>
       <description>MLflow is an open-source platform designed to streamline the machine learning (ML) lifecycle. It was developed by Databricks and has gained widespread adoption within the data science and machine learning communities. MLflow provides a comprehensive set of tools and libraries for managing the end-to-end process of developing, deploying, and maintaining machine learning models.
 Key features of MLflow include:
 Experiment Tracking: MLflow allows data scientists and engineers to keep track of their experiments.</description>
@@ -20,10 +20,10 @@ Experiment Tracking: MLflow allows data scientists and engineers to keep track o
     
     <item>
       <title>Azure Data Factory Copy Activity: The Swiss Army Knife of Data Integration</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/azurecopyactivity/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/azurecopyactivity/</link>
       <pubDate>Mon, 28 Aug 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/azurecopyactivity/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/azurecopyactivity/</guid>
       <description>Think of Azure Data Factory&amp;rsquo;s Copy Activity as the Swiss Army knife of data integration. Just as a Swiss Army knife combines various tools into one compact design, Copy Activity seamlessly combines multiple data integration functions into a single, powerful feature.
 Versatility: Just like a Swiss Army knife&amp;rsquo;s ability to handle various tasks, Copy Activity connects to diverse data sources and destinations, whether they&amp;rsquo;re in the cloud or on-premises.
 Efficiency: Like a Swiss Army knife&amp;rsquo;s efficiency in handling different tasks, Copy Activity streamlines data movement and transformation in a single step.</description>
@@ -31,39 +31,39 @@ Efficiency: Like a Swiss Army knife&amp;rsquo;s efficiency in handling different
     
     <item>
       <title>Digital Twins: Bridging the Physical and Virtual Worlds</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/azuredigitaltwins/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/azuredigitaltwins/</link>
       <pubDate>Sat, 12 Aug 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/azuredigitaltwins/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/azuredigitaltwins/</guid>
       <description>In a world fueled by technology, the concept of Digital Twins has emerged as a groundbreaking bridge between the physical and digital realms. Imagine having a virtual counterpart for real-world objects, processes, or systems that mimics their behavior and characteristics in real time. This technology is not just about static models – it&amp;rsquo;s about creating dynamic, synchronized virtual entities that offer a wealth of benefits across industries.
 Digital Twins rely on a mix of technologies like IoT, data analytics, machine learning, and cloud computing.</description>
     </item>
     
     <item>
       <title>Secure Azure APIs using Azure B2C Active Directory - Sequence Diagram using Mermaid.js</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/secureazureapib2c/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/secureazureapib2c/</link>
       <pubDate>Mon, 24 Jul 2023 18:25:02 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/secureazureapib2c/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/secureazureapib2c/</guid>
       <description>As an enterprise architect, using text-based diagrams can be a smarter approach for several reasons. Text-based diagrams offer superior portability and accessibility, as they are lightweight and can be shared as plain text files through various communication channels, reaching a broader audience without the need for specialized software. Furthermore, by being version-controlled using tools like Git, text-based diagrams facilitate seamless collaboration among team members, enabling efficient tracking of changes and supporting geographically dispersed teams.</description>
     </item>
     
     <item>
       <title>Non-Linear Regression models</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/non-linearregression/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/non-linearregression/</link>
       <pubDate>Sun, 02 Jul 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/non-linearregression/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/non-linearregression/</guid>
       <description>Non-linear regression is a powerful technique used in statistics and machine learning to model and analyze complex relationships between variables. Unlike linear regression, which assumes a linear relationship between the independent and dependent variables, non-linear regression algorithms can capture more intricate and non-linear patterns. This makes them particularly useful when dealing with real-world phenomena where linear relationships are insufficient.
 Following Non-Linear regression models are covered in the attached Jypter notebook</description>
     </item>
     
     <item>
       <title>MIT-GreatLearning Applied Data Science program Capstone Project</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/mit_capstone/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/mit_capstone/</link>
       <pubDate>Sat, 17 Jun 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/mit_capstone/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/mit_capstone/</guid>
       <description>During my participation in the MIT-GreatLearning Applied Data Science Program, I experienced an intensive curriculum that encompassed diverse subjects such as Statistics, Python programming, Machine Learning, Neural Networks, and Recommendation Systems.
 The culmination of the program was the Capstone project, which aimed to predict Loan Default. This involved crucial steps like Data Preparation, Exploratory Data Analysis, constructing models, and generating a comprehensive performance report for the various models employed.
 The final outcome is a binary classification.</description>
@@ -71,19 +71,19 @@ The final outcome is a binary classification.</description>
     
     <item>
       <title>Conversations with ChatGPT - Machine Learning</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/second/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/second/</link>
       <pubDate>Fri, 26 May 2023 18:25:09 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/second/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/second/</guid>
       <description>As a Technical Consultant, I have successfully implemented software solutions using various programming languages, frameworks, and patterns across different platforms throughout my career. The emergence of Google has significantly enhanced my productivity, and I have always admired the knowledgeable community at Stackflow. There, I found individuals who had encountered obstacles before me and others who possessed the solutions. And now, with the advent of Generative AI, a whole new level of innovation has arrived.</description>
     </item>
     
     <item>
       <title>Prepare yourself for LinkedIn</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/linkedin-visualization/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/linkedin-visualization/</link>
       <pubDate>Thu, 22 Jun 2023 18:25:09 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/linkedin-visualization/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/linkedin-visualization/</guid>
       <description>Every professional should dedicate a reasonable amount of time each week to LinkedIn. This commitment serves as an investment in job security, and there are two main reasons for doing so.
 Personal Branding Your company HR is always looking for &amp;lsquo;Great Candidates&amp;rsquo; to fill a certain post. Why not let them find you on LinkedIn
 Professional Networking If you are furloughed, find your next opportunity quickly
@@ -93,20 +93,20 @@ In the future, your LinkedIn score may determine whether you get to keep the job
     
     <item>
       <title>Machnine Language Terms - Cheat sheet</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/ml_key_terms/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/ml_key_terms/</link>
       <pubDate>Sat, 17 Jun 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/ml_key_terms/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/ml_key_terms/</guid>
       <description>During an interview process, interviewers generally ask and expect textbook definitions of basic terms. Interviewees, on the other hand must be prepared and answer them promptly. Lengthy and exploratory answers prevent interviewers from asking more probing questions.
 Confidence Interval A confidence interval is a range of values around the point estimate, constructed so that this range will contain the population parameter with a certain degree of confidence, expressed in percentage terms.</description>
     </item>
     
     <item>
       <title>Azure Landscape</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/azurelandscape/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/azurelandscape/</link>
       <pubDate>Sun, 21 May 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/azurelandscape/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/azurelandscape/</guid>
       <description>This powerpoint presentation of various tiers in Microsoft Azure Cloud implementation.
 With the architecture in-place, I want to answer the question
 &amp;ldquo;How can you leverage Generative AI to build and maintain this infrastructure?&amp;rdquo; This is an embedded Microsoft Office presentation, powered by Office. Full PowerPoint presentation</description>
@@ -114,28 +114,28 @@ With the architecture in-place, I want to answer the question
     
     <item>
       <title>Sreenivas Angara Resume</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/experience/resume/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/experience/resume/</link>
       <pubDate>Fri, 06 Oct 2023 18:25:02 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/experience/resume/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/experience/resume/</guid>
       <description>🔗 Credly </description>
     </item>
     
     <item>
       <title>MIT Professional education - Applied Data Science and Machine Learning</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/experience/mitprogram/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/experience/mitprogram/</link>
       <pubDate>Wed, 26 Jul 2023 09:25:02 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/experience/mitprogram/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/experience/mitprogram/</guid>
       <description>Feels good to complete this program. Very excited about Machine Learning and Generative AI</description>
     </item>
     
     <item>
       <title>WIP - API Management Concepts</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/api_management/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/api_management/</link>
       <pubDate>Sun, 21 May 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/api_management/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/api_management/</guid>
       <description>WIP - Putting my thoughts together a future article on Azure API Management. Policies Authentication Policies Access Restriction Policy Caching Policy Cross Domain Policies Transformation Policies Advanced Policies
 Microservice Microservices are fine grained loosely coupled services communicating through light-weight protocols. Azure functions versus Docker. Portability versus serverless
 API Management API Mangagement is a process of creating and publishing web application programming interfaces. Enforce usage policies, control access and analyse usage statistics</description>
@@ -143,10 +143,10 @@ API Management API Mangagement is a process of creating and publishing web appli
     
     <item>
       <title>WIP - Application Platforms</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/appcontainers/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/appcontainers/</link>
       <pubDate>Sun, 21 May 2023 18:25:18 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/appcontainers/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/appcontainers/</guid>
       <description>WIP - A future article on Enterprise Application Platforms Platforms: JBoss, Microsoft Entity Framework Core, SpringBoot
 Applications: Web apps, REST services, SOA, JMS messaging
 Layers: Presentation layer, Buiness Layer, Database Layer (use mermaid.js for text to Illustration)
@@ -155,10 +155,10 @@ Key concepts: Dependency Injection: Promotes loose coupling .. examples ??? Aspe
     
     <item>
       <title>Scratchpad</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/first/</link>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/first/</link>
       <pubDate>Fri, 21 Apr 2023 18:25:02 -0500</pubDate>
       
-      <guid>https://cooolbabu.github.io/SreenivasAngara_beta1/posts/first/</guid>
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/first/</guid>
       <description>This is a scratch post to view various features of PaperMod theme
 Powerpoint Presentation PowerPoint
 Some issues that still need to be worked upon This is a sample. Post with cover image. Need to work on this issue.
