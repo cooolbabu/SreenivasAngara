@@ -7,7 +7,7 @@ layout: rtl
 weight: 1000
 
 cover:
-  image: "images/brain-circuit360.jpg"
+  image: "images/cv_PNG30.png"
   imageWidth: 200
   imageHeight: 200
 
