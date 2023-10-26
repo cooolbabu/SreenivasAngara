@@ -35,7 +35,7 @@ In the credit card industry, we can assess whether a customer disputing charges 
 
 In appointment-based businesses, tracking customer reliability can help manage the cost of no-shows. May be the business can do a no-show on the customer.
 
-In the realm of job interviews, a bold idea emerges: instead of solely relying on human judgment, HR could employ AI algorithms to rate interviewee responses as confident, knowledgeable, or halucinating.
+In the realm of job interviews, a bold idea emerges: instead of solely relying on human judgment, HR could employ AI algorithms to rate interviewee responses as thought-leaders, knowledgeable, or halucinating.
 
 Traditionally, businesses have leaned on quantitative metrics to enhance their productivity and make informed decisions. Sentiment Analysis, however, offers a fresh approach. We're venturing into a new world where we can evaluate people based on what they say, opening up a world of possibilities and challenges.
 
