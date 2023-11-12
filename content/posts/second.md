@@ -5,6 +5,12 @@ draft: false
 
 weight: 100
 
+cover:
+  image: "images/ChatGPT_logo.png"
+  Alt: ChatGPT
+  imageWidth: 300
+  imageHeight: 300
+
 tags: ["ML"]
 categories: ["ChatGPT"]
 ---
