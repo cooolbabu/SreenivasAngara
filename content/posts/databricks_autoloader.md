@@ -45,9 +45,9 @@ Curious to see how this can be achieved effortlessly? And What's next? Stay tune
 
 #### [Technical deep dive on implementing declarative programming for data ingestion on YouTube](https://www.youtube.com/watch?v=_9Oi9rZRwmo)
 
----
-
 #
+
+---
 
 #
 
