@@ -1,5 +1,5 @@
 ---
-title: "Declarative Programming - Put ROI on steroids by focusing on man-hours, not compute costs"
+title: "Declarative Programming - Put ROI on steroids by focusing on person-hours, not compute costs"
 date: 2023-11-12T05:25:18-05:00
 weight: 100
 
@@ -19,14 +19,14 @@ I recently watched Michael Armbrust's insightful presentation at the Data + AI S
 
 His primary message, **"Declarative programs specify what should be done, not how to do it"** left a lasting impression.
 
-Throughout my years of experience working on numerous projects involving the implementation of Data Warehousing and Data Engineering technologies, I faced various challenges related to ingesting data from a wide range of external sources. The entire data workflow, encompassing the movement of data into a landing zone and its subsequent loading into a Data Warehouse, demanded countless man-hours of:
+Throughout my years of experience working on numerous projects involving the implementation of Data Warehousing and Data Engineering technologies, I faced various challenges related to ingesting data from a wide range of external sources. The entire data workflow, encompassing the movement of data into a landing zone and its subsequent loading into a Data Warehouse, demanded countless person-hours of:
 
 - Writing Solution Architecture Documents.
 - Presenting to Enterprise Architects for their approvals.
 - Ensuring that Data Engineers adhered to the best practices during solution implementation.
 - Following ITSM protocols encompassing the design, creation, delivery, and support of IT Services.
 
-DataBricks Autoloader can dramatically reduce the man-hours to design and deliver data ingestion solution. **Importantly, the Return on Investment (ROI) is predominantly tied to the savings in man-hours needed to develop and manage a solution over its lifetime.**
+DataBricks Autoloader can dramatically reduce the person-hours to design and deliver data ingestion solution. **Importantly, the Return on Investment (ROI) is predominantly tied to the savings in person-hours needed to develop and manage a solution over its lifetime.**
 
 DataBricks Autoloader provides two modes to ingest data.
 
