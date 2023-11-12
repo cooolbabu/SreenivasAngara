@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Oct 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Nov 2023 05:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Declarative Programming - Put ROI on steroids by focusing on man-hours, not compute costs</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/databricks_autoloader/</link>
+      <pubDate>Sun, 12 Nov 2023 05:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/databricks_autoloader/</guid>
+      <description>Declarative programming will expedite the Return on Investment in your modern data warehouse implementation.
+I recently watched Michael Armbrust&amp;rsquo;s insightful presentation at the Data + AI Summit 2023, where he initiated the discussion by emphasizing the advantages of Declarative Programming. Throughout his talk, he delved into the innovative features of Delta Live Tables, DLT Pipelines, HMR, serverless computing, Enzyme, and more.
+His primary message, &amp;ldquo;Declarative programs specify what should be done, not how to do it&amp;rdquo; left a lasting impression.</description>
+    </item>
+    
     <item>
       <title>The Invisible Hand is the new Iron Fist</title>
       <link>https://cooolbabu.github.io/SreenivasAngara/posts/platformscale/</link>

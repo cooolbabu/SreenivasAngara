@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DataBricks on Sreenivas R Angara</title>
+    <link>https://cooolbabu.github.io/SreenivasAngara/categories/databricks/</link>
+    <description>Recent content in DataBricks on Sreenivas R Angara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Nov 2023 05:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/categories/databricks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Declarative Programming - Put ROI on steroids by focusing on man-hours, not compute costs</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/databricks_autoloader/</link>
+      <pubDate>Sun, 12 Nov 2023 05:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/databricks_autoloader/</guid>
+      <description>Declarative programming will expedite the Return on Investment in your modern data warehouse implementation.
+I recently watched Michael Armbrust&amp;rsquo;s insightful presentation at the Data + AI Summit 2023, where he initiated the discussion by emphasizing the advantages of Declarative Programming. Throughout his talk, he delved into the innovative features of Delta Live Tables, DLT Pipelines, HMR, serverless computing, Enzyme, and more.
+His primary message, &amp;ldquo;Declarative programs specify what should be done, not how to do it&amp;rdquo; left a lasting impression.</description>
+    </item>
+    
+  </channel>
+</rss>

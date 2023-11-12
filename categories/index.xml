@@ -6,7 +6,25 @@
     <description>Recent content in Categories on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Oct 2023 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Nov 2023 05:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Engineering</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara/categories/data-engineering/</link>
+      <pubDate>Sun, 12 Nov 2023 05:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara/categories/data-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DataBricks</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara/categories/databricks/</link>
+      <pubDate>Sun, 12 Nov 2023 05:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara/categories/databricks/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Cloud Engineering</title>
       <link>https://cooolbabu.github.io/SreenivasAngara/categories/cloud-engineering/</link>
@@ -58,15 +76,6 @@
       <pubDate>Mon, 28 Aug 2023 18:25:18 -0500</pubDate>
       
       <guid>https://cooolbabu.github.io/SreenivasAngara/categories/azure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Engineering</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara/categories/data-engineering/</link>
-      <pubDate>Mon, 28 Aug 2023 18:25:18 -0500</pubDate>
-      
-      <guid>https://cooolbabu.github.io/SreenivasAngara/categories/data-engineering/</guid>
       <description></description>
     </item>
     

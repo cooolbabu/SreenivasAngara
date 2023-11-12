@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Data Engineering on Sreenivas R Angara</title>
-    <link>https://cooolbabu.github.io/SreenivasAngara/categories/data-engineering/</link>
+    <link>https://cooolbabu.github.io/SreenivasAngara/tags/data-engineering/</link>
     <description>Recent content in Data Engineering on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Nov 2023 05:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/categories/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Nov 2023 05:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Declarative Programming - Put ROI on steroids by focusing on man-hours, not compute costs</title>
       <link>https://cooolbabu.github.io/SreenivasAngara/posts/databricks_autoloader/</link>
@@ -16,17 +16,6 @@
       <description>Declarative programming will expedite the Return on Investment in your modern data warehouse implementation.
 I recently watched Michael Armbrust&amp;rsquo;s insightful presentation at the Data + AI Summit 2023, where he initiated the discussion by emphasizing the advantages of Declarative Programming. Throughout his talk, he delved into the innovative features of Delta Live Tables, DLT Pipelines, HMR, serverless computing, Enzyme, and more.
 His primary message, &amp;ldquo;Declarative programs specify what should be done, not how to do it&amp;rdquo; left a lasting impression.</description>
-    </item>
-    
-    <item>
-      <title>Azure Data Factory Copy Activity: The Swiss Army Knife of Data Integration</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara/posts/azurecopyactivity/</link>
-      <pubDate>Mon, 28 Aug 2023 18:25:18 -0500</pubDate>
-      
-      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/azurecopyactivity/</guid>
-      <description>Think of Azure Data Factory&amp;rsquo;s Copy Activity as the Swiss Army knife of data integration. Just as a Swiss Army knife combines various tools into one compact design, Copy Activity seamlessly combines multiple data integration functions into a single, powerful feature.
-Versatility: Just like a Swiss Army knife&amp;rsquo;s ability to handle various tasks, Copy Activity connects to diverse data sources and destinations, whether they&amp;rsquo;re in the cloud or on-premises.
-Efficiency: Like a Swiss Army knife&amp;rsquo;s efficiency in handling different tasks, Copy Activity streamlines data movement and transformation in a single step.</description>
     </item>
     
   </channel>
