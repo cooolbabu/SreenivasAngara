@@ -6,7 +6,17 @@
     <description>Recent content in ChatGPT on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 May 2023 18:25:09 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/categories/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Feb 2024 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/categories/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prompt Engineering - A Productivity Booster</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/promptenggprodboost/</link>
+      <pubDate>Sat, 03 Feb 2024 18:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/promptenggprodboost/</guid>
+      <description>In my recent data engineering quest, I had to wrangle data from seven sources and fill our data warehouse using Azure Data Factory. The end result? Twenty-one pipelines doing a synchronized dance, populating twenty-six tables. Back in the pre-ChatGPT era, this Herculean task would&amp;rsquo;ve demanded three full-time heroes for six months. Enter ChatGPT: in just five months, with the power of 1.25 FTEs, Mission Accomplished.
+But that&amp;rsquo;s not all! ChatGPT Playground&amp;rsquo;s prompts turned me into a coding sorcerer.</description>
+    </item>
+    
     <item>
       <title>Conversations with ChatGPT - Machine Learning</title>
       <link>https://cooolbabu.github.io/SreenivasAngara/posts/second/</link>

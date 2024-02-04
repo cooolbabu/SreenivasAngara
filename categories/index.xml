@@ -6,13 +6,49 @@
     <description>Recent content in Categories on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Nov 2023 05:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Feb 2024 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara/categories/azure/</link>
+      <pubDate>Sat, 03 Feb 2024 18:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara/categories/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azure Data Factory</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara/categories/azure-data-factory/</link>
+      <pubDate>Sat, 03 Feb 2024 18:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara/categories/azure-data-factory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ChatGPT</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara/categories/chatgpt/</link>
+      <pubDate>Sat, 03 Feb 2024 18:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara/categories/chatgpt/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Data Engineering</title>
       <link>https://cooolbabu.github.io/SreenivasAngara/categories/data-engineering/</link>
-      <pubDate>Sun, 12 Nov 2023 05:25:18 -0500</pubDate>
+      <pubDate>Sat, 03 Feb 2024 18:25:18 -0500</pubDate>
       
       <guid>https://cooolbabu.github.io/SreenivasAngara/categories/data-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prompt Engineering</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara/categories/prompt-engineering/</link>
+      <pubDate>Sat, 03 Feb 2024 18:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara/categories/prompt-engineering/</guid>
       <description></description>
     </item>
     
@@ -67,15 +103,6 @@
       <pubDate>Sat, 16 Sep 2023 18:25:18 -0500</pubDate>
       
       <guid>https://cooolbabu.github.io/SreenivasAngara/categories/mlops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Azure</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara/categories/azure/</link>
-      <pubDate>Mon, 28 Aug 2023 18:25:18 -0500</pubDate>
-      
-      <guid>https://cooolbabu.github.io/SreenivasAngara/categories/azure/</guid>
       <description></description>
     </item>
     
@@ -166,15 +193,6 @@
       <pubDate>Sat, 17 Jun 2023 18:25:18 -0500</pubDate>
       
       <guid>https://cooolbabu.github.io/SreenivasAngara/categories/ml_terms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ChatGPT</title>
-      <link>https://cooolbabu.github.io/SreenivasAngara/categories/chatgpt/</link>
-      <pubDate>Fri, 26 May 2023 18:25:09 -0500</pubDate>
-      
-      <guid>https://cooolbabu.github.io/SreenivasAngara/categories/chatgpt/</guid>
       <description></description>
     </item>
     
