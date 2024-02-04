@@ -6,7 +6,16 @@
     <description>Recent content in API on Sreenivas R Angara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jul 2023 18:25:02 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/categories/api/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Jan 2024 18:25:18 -0500</lastBuildDate><atom:link href="https://cooolbabu.github.io/SreenivasAngara/categories/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API Pagination in the wild</title>
+      <link>https://cooolbabu.github.io/SreenivasAngara/posts/apipagination/</link>
+      <pubDate>Wed, 31 Jan 2024 18:25:18 -0500</pubDate>
+      
+      <guid>https://cooolbabu.github.io/SreenivasAngara/posts/apipagination/</guid>
+      <description>In the dynamic API economy, service providers acknowledge the crucial role of API monetization in creating revenue streams. APIs have evolved into the backbone of modern software development, facilitating seamless data exchange between applications. As their complexity and usage increase, the need for efficient data retrieval becomes paramount. Recognizing the symbiotic relationship between API monetization and effective data handling is key for service providers to navigate the evolving landscape successfully, ensuring not only a seamless user experience but also the maximization of revenue potential.</description>
+    </item>
+    
     <item>
       <title>Secure Azure APIs using Azure B2C Active Directory - Sequence Diagram using Mermaid.js</title>
       <link>https://cooolbabu.github.io/SreenivasAngara/posts/secureazureapib2c/</link>
