@@ -152,10 +152,7 @@ flex-direction: column;
           <code class="language-sql">
             # Table creation DDL
                         
-            USE FreshWorks;
-            GO
-
-            IF OBJECT_ID('FreshWorks.ticket_staging', 'U') IS NOT NULL
+                        IF OBJECT_ID('FreshWorks.ticket_staging', 'U') IS NOT NULL
                 DROP TABLE FreshWorks.ticket_staging;
             GO
 
@@ -207,6 +204,9 @@ flex-direction: column;
           ##    approval_status is of type INT.
 
           ## All of them recognized from sample data
+
+
+
 
 
             &nbsp;
