@@ -44,6 +44,8 @@ The ENVI service provides the absolute URL within the property labeled '@data.ne
 
 **Azure ADF Copy activity settings for CareMessage**
 
+The second condition is necessary as CareMessage always returns a URL for the next message. Activity_logs is an array and if empty it becomes the end condition.
+
 ![](cm_copy_activity.png)
 
 ## FreshWorks

@@ -1,5 +1,5 @@
 ---
-title: "Prompt Engineering - A Productivity Booster"
+title: "Prompt Engineering - Productivity on Steriods"
 date: 2024-02-03T18:25:18-05:00
 draft: false
 
