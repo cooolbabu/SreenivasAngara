@@ -178,7 +178,11 @@ flex-direction: column;
                 to_emails NVARCHAR(MAX),
                 sla_policy_id INT,
                 department_id INT,
-                [description] NVARCHAR(60),
+                type NVARCHAR(60),
+                due_by DATETIME,
+                fr_due_by DATETIME,
+                is_escalated BIT,
+                description NVARCHAR(MAX),
                 description_text NVARCHAR(60),
                 custom_fields NVARCHAR(MAX),
                 created_at DATETIME,
@@ -203,10 +207,6 @@ flex-direction: column;
           ##    approval_status is of type INT.
 
           ## All of them recognized from sample data
-
-
-
-
 
 
             &nbsp;
